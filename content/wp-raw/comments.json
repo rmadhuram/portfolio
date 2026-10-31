@@ -1,0 +1,3586 @@
+[
+  {
+    "id": 5190,
+    "post": 923,
+    "parent": 0,
+    "author": 0,
+    "author_name": "Daniel Fernandes",
+    "author_url": "",
+    "date": "2022-01-02T18:20:13",
+    "date_gmt": "2022-01-03T02:20:13",
+    "content": {
+      "rendered": "<p>Hi Raj<br />\nHow can I use multiple displays?<br />\nThanks</p>\n"
+    },
+    "link": "http://geekraj.com/colorduino-christmas-ornament/comment-page-1/#comment-5190",
+    "status": "approved",
+    "type": "comment",
+    "author_avatar_urls": {
+      "24": "http://2.gravatar.com/avatar/8950d7dc9f3a9344e27d5300a8e84c22?s=24&d=wavatar&r=g",
+      "48": "http://2.gravatar.com/avatar/8950d7dc9f3a9344e27d5300a8e84c22?s=48&d=wavatar&r=g",
+      "96": "http://2.gravatar.com/avatar/8950d7dc9f3a9344e27d5300a8e84c22?s=96&d=wavatar&r=g"
+    },
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "http://geekraj.com/wp-json/wp/v2/comments/5190"
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://geekraj.com/wp-json/wp/v2/comments"
+        }
+      ],
+      "up": [
+        {
+          "embeddable": true,
+          "post_type": "post",
+          "href": "http://geekraj.com/wp-json/wp/v2/posts/923"
+        }
+      ]
+    }
+  },
+  {
+    "id": 4791,
+    "post": 1056,
+    "parent": 0,
+    "author": 0,
+    "author_name": "Biddu",
+    "author_url": "",
+    "date": "2020-10-28T18:32:28",
+    "date_gmt": "2020-10-29T02:32:28",
+    "content": {
+      "rendered": "<p>Nice</p>\n"
+    },
+    "link": "http://geekraj.com/i-discovered-an-angel-function/comment-page-1/#comment-4791",
+    "status": "approved",
+    "type": "comment",
+    "author_avatar_urls": {
+      "24": "http://1.gravatar.com/avatar/16b540b9e3aab8c83d32242901684c9e?s=24&d=wavatar&r=g",
+      "48": "http://1.gravatar.com/avatar/16b540b9e3aab8c83d32242901684c9e?s=48&d=wavatar&r=g",
+      "96": "http://1.gravatar.com/avatar/16b540b9e3aab8c83d32242901684c9e?s=96&d=wavatar&r=g"
+    },
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "http://geekraj.com/wp-json/wp/v2/comments/4791"
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://geekraj.com/wp-json/wp/v2/comments"
+        }
+      ],
+      "up": [
+        {
+          "embeddable": true,
+          "post_type": "post",
+          "href": "http://geekraj.com/wp-json/wp/v2/posts/1056"
+        }
+      ]
+    }
+  },
+  {
+    "id": 4790,
+    "post": 1056,
+    "parent": 0,
+    "author": 0,
+    "author_name": "Mani",
+    "author_url": "",
+    "date": "2020-10-26T01:35:09",
+    "date_gmt": "2020-10-26T09:35:09",
+    "content": {
+      "rendered": "<p>One suggestion on the article, to make it relatable for those who are not used to the specific equation, you could describe about them in a short, so that, the reader can carry more than just a magic out of it, can understand the relation between the circle , identity, trigonometry and for others it could re-establish the lost interest on subject also.</p>\n"
+    },
+    "link": "http://geekraj.com/i-discovered-an-angel-function/comment-page-1/#comment-4790",
+    "status": "approved",
+    "type": "comment",
+    "author_avatar_urls": {
+      "24": "http://2.gravatar.com/avatar/2aa512ba357064eb73a4fbebda22f477?s=24&d=wavatar&r=g",
+      "48": "http://2.gravatar.com/avatar/2aa512ba357064eb73a4fbebda22f477?s=48&d=wavatar&r=g",
+      "96": "http://2.gravatar.com/avatar/2aa512ba357064eb73a4fbebda22f477?s=96&d=wavatar&r=g"
+    },
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "http://geekraj.com/wp-json/wp/v2/comments/4790"
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://geekraj.com/wp-json/wp/v2/comments"
+        }
+      ],
+      "up": [
+        {
+          "embeddable": true,
+          "post_type": "post",
+          "href": "http://geekraj.com/wp-json/wp/v2/posts/1056"
+        }
+      ]
+    }
+  },
+  {
+    "id": 4783,
+    "post": 923,
+    "parent": 4782,
+    "author": 1,
+    "author_name": "Raj Madhuram",
+    "author_url": "",
+    "date": "2017-12-08T18:26:17",
+    "date_gmt": "2017-12-09T02:26:17",
+    "content": {
+      "rendered": "<p>Hi Brid,</p>\n<p>Thanks for the note!<br />\nIf you want to make the symbols scroll, the message for scrolling is fed from the greetings[] array. All you have to do is to pack that array with symbols. You can use the ASCII code instead of the actual character for special non-standard characters. </p>\n<p>If you want other effects like appear/disapper, fade in/out of individual symbols, you need to modify the code. Should be fairly easy to do. I&#8217;m using the data from fonts.c to build the representation in the 8&#215;8 buffer. Let me know if you need any more help in understanding the code.</p>\n<p>Regards,<br />\nRaj</p>\n"
+    },
+    "link": "http://geekraj.com/colorduino-christmas-ornament/comment-page-1/#comment-4783",
+    "status": "approved",
+    "type": "comment",
+    "author_avatar_urls": {
+      "24": "http://1.gravatar.com/avatar/4b16da4657265c7367dc6fcc7876ac87?s=24&d=wavatar&r=g",
+      "48": "http://1.gravatar.com/avatar/4b16da4657265c7367dc6fcc7876ac87?s=48&d=wavatar&r=g",
+      "96": "http://1.gravatar.com/avatar/4b16da4657265c7367dc6fcc7876ac87?s=96&d=wavatar&r=g"
+    },
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "http://geekraj.com/wp-json/wp/v2/comments/4783"
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://geekraj.com/wp-json/wp/v2/comments"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "http://geekraj.com/wp-json/wp/v2/users/1"
+        }
+      ],
+      "up": [
+        {
+          "embeddable": true,
+          "post_type": "post",
+          "href": "http://geekraj.com/wp-json/wp/v2/posts/923"
+        }
+      ],
+      "in-reply-to": [
+        {
+          "embeddable": true,
+          "href": "http://geekraj.com/wp-json/wp/v2/comments/4782"
+        }
+      ]
+    }
+  },
+  {
+    "id": 4782,
+    "post": 923,
+    "parent": 0,
+    "author": 0,
+    "author_name": "Brid",
+    "author_url": "",
+    "date": "2017-12-08T15:13:38",
+    "date_gmt": "2017-12-08T23:13:38",
+    "content": {
+      "rendered": "<p>Hi Raj,</p>\n<p>I love this. I&#8217;m trying to make something similar with a colorduino that just flashes through some different symbols (like the asterik, but then other, non standard characters). I can change the asterik and turn off the scrolling text but I can&#8217;t figure out how to make symbols display on a loop.</p>\n"
+    },
+    "link": "http://geekraj.com/colorduino-christmas-ornament/comment-page-1/#comment-4782",
+    "status": "approved",
+    "type": "comment",
+    "author_avatar_urls": {
+      "24": "http://2.gravatar.com/avatar/5784f889edbfb0e46ea8abb1e72993c7?s=24&d=wavatar&r=g",
+      "48": "http://2.gravatar.com/avatar/5784f889edbfb0e46ea8abb1e72993c7?s=48&d=wavatar&r=g",
+      "96": "http://2.gravatar.com/avatar/5784f889edbfb0e46ea8abb1e72993c7?s=96&d=wavatar&r=g"
+    },
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "http://geekraj.com/wp-json/wp/v2/comments/4782"
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://geekraj.com/wp-json/wp/v2/comments"
+        }
+      ],
+      "up": [
+        {
+          "embeddable": true,
+          "post_type": "post",
+          "href": "http://geekraj.com/wp-json/wp/v2/posts/923"
+        }
+      ],
+      "children": [
+        {
+          "href": "http://geekraj.com/wp-json/wp/v2/comments?parent=4782"
+        }
+      ]
+    }
+  },
+  {
+    "id": 4781,
+    "post": 923,
+    "parent": 4780,
+    "author": 1,
+    "author_name": "Raj Madhuram",
+    "author_url": "",
+    "date": "2017-12-01T10:28:26",
+    "date_gmt": "2017-12-01T18:28:26",
+    "content": {
+      "rendered": "<p>Hi Daniel,</p>\n<p>It has been a while since I did this. Did you download and use the Colorduino library? I believe I used this one: <a href=\"https://github.com/frederickk/Colorduino\" rel=\"nofollow ugc\">https://github.com/frederickk/Colorduino</a></p>\n<p>Regards,<br />\nRaj</p>\n"
+    },
+    "link": "http://geekraj.com/colorduino-christmas-ornament/comment-page-1/#comment-4781",
+    "status": "approved",
+    "type": "comment",
+    "author_avatar_urls": {
+      "24": "http://1.gravatar.com/avatar/4b16da4657265c7367dc6fcc7876ac87?s=24&d=wavatar&r=g",
+      "48": "http://1.gravatar.com/avatar/4b16da4657265c7367dc6fcc7876ac87?s=48&d=wavatar&r=g",
+      "96": "http://1.gravatar.com/avatar/4b16da4657265c7367dc6fcc7876ac87?s=96&d=wavatar&r=g"
+    },
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "http://geekraj.com/wp-json/wp/v2/comments/4781"
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://geekraj.com/wp-json/wp/v2/comments"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "http://geekraj.com/wp-json/wp/v2/users/1"
+        }
+      ],
+      "up": [
+        {
+          "embeddable": true,
+          "post_type": "post",
+          "href": "http://geekraj.com/wp-json/wp/v2/posts/923"
+        }
+      ],
+      "in-reply-to": [
+        {
+          "embeddable": true,
+          "href": "http://geekraj.com/wp-json/wp/v2/comments/4780"
+        }
+      ]
+    }
+  },
+  {
+    "id": 4780,
+    "post": 923,
+    "parent": 0,
+    "author": 0,
+    "author_name": "Daniel Fernandes",
+    "author_url": "",
+    "date": "2017-12-01T07:47:29",
+    "date_gmt": "2017-12-01T15:47:29",
+    "content": {
+      "rendered": "<p>The error in fonts.c looks like it has been resolved; is now displaying the following: &#8216;PixelRGB&#8217; was not declared in this scope;<br />\nCan you help me? I&#8217;m using Arduino 1.8.5<br />\nThank you</p>\n"
+    },
+    "link": "http://geekraj.com/colorduino-christmas-ornament/comment-page-1/#comment-4780",
+    "status": "approved",
+    "type": "comment",
+    "author_avatar_urls": {
+      "24": "http://2.gravatar.com/avatar/8950d7dc9f3a9344e27d5300a8e84c22?s=24&d=wavatar&r=g",
+      "48": "http://2.gravatar.com/avatar/8950d7dc9f3a9344e27d5300a8e84c22?s=48&d=wavatar&r=g",
+      "96": "http://2.gravatar.com/avatar/8950d7dc9f3a9344e27d5300a8e84c22?s=96&d=wavatar&r=g"
+    },
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "http://geekraj.com/wp-json/wp/v2/comments/4780"
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://geekraj.com/wp-json/wp/v2/comments"
+        }
+      ],
+      "up": [
+        {
+          "embeddable": true,
+          "post_type": "post",
+          "href": "http://geekraj.com/wp-json/wp/v2/posts/923"
+        }
+      ],
+      "children": [
+        {
+          "href": "http://geekraj.com/wp-json/wp/v2/comments?parent=4780"
+        }
+      ]
+    }
+  },
+  {
+    "id": 4779,
+    "post": 923,
+    "parent": 0,
+    "author": 0,
+    "author_name": "Daniel Fernandes",
+    "author_url": "",
+    "date": "2017-11-30T09:54:58",
+    "date_gmt": "2017-11-30T17:54:58",
+    "content": {
+      "rendered": "<p>Hi friend! (geekraj) You are showing the following: fatal error: fonts.c: No such file or directory.<br />\nI created a folder called &#8220;fonts&#8221; inside the arduino libraries folder and put the file &#8220;fonts.c&#8221; inside; is correct? I am using the arduino IDE 1.6.5 and 1.8.5; I would like your help,<br />\nThank you</p>\n"
+    },
+    "link": "http://geekraj.com/colorduino-christmas-ornament/comment-page-1/#comment-4779",
+    "status": "approved",
+    "type": "comment",
+    "author_avatar_urls": {
+      "24": "http://2.gravatar.com/avatar/8950d7dc9f3a9344e27d5300a8e84c22?s=24&d=wavatar&r=g",
+      "48": "http://2.gravatar.com/avatar/8950d7dc9f3a9344e27d5300a8e84c22?s=48&d=wavatar&r=g",
+      "96": "http://2.gravatar.com/avatar/8950d7dc9f3a9344e27d5300a8e84c22?s=96&d=wavatar&r=g"
+    },
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "http://geekraj.com/wp-json/wp/v2/comments/4779"
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://geekraj.com/wp-json/wp/v2/comments"
+        }
+      ],
+      "up": [
+        {
+          "embeddable": true,
+          "post_type": "post",
+          "href": "http://geekraj.com/wp-json/wp/v2/posts/923"
+        }
+      ]
+    }
+  },
+  {
+    "id": 4775,
+    "post": 771,
+    "parent": 0,
+    "author": 0,
+    "author_name": "Ramkumar",
+    "author_url": "",
+    "date": "2017-04-29T09:32:17",
+    "date_gmt": "2017-04-29T17:32:17",
+    "content": {
+      "rendered": "<p>Nice..saved time for me :-)</p>\n"
+    },
+    "link": "http://geekraj.com/simple-css-only-stage-progress-indicator/comment-page-1/#comment-4775",
+    "status": "approved",
+    "type": "comment",
+    "author_avatar_urls": {
+      "24": "http://1.gravatar.com/avatar/1da7dd30c51798394c86182a71a9c4ad?s=24&d=wavatar&r=g",
+      "48": "http://1.gravatar.com/avatar/1da7dd30c51798394c86182a71a9c4ad?s=48&d=wavatar&r=g",
+      "96": "http://1.gravatar.com/avatar/1da7dd30c51798394c86182a71a9c4ad?s=96&d=wavatar&r=g"
+    },
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "http://geekraj.com/wp-json/wp/v2/comments/4775"
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://geekraj.com/wp-json/wp/v2/comments"
+        }
+      ],
+      "up": [
+        {
+          "embeddable": true,
+          "post_type": "post",
+          "href": "http://geekraj.com/wp-json/wp/v2/posts/771"
+        }
+      ]
+    }
+  },
+  {
+    "id": 4737,
+    "post": 458,
+    "parent": 0,
+    "author": 0,
+    "author_name": "zeze",
+    "author_url": "http://test.com",
+    "date": "2016-04-09T01:02:42",
+    "date_gmt": "2016-04-09T09:02:42",
+    "content": {
+      "rendered": "<p>Hi my friend! I want to say that this article is amazing, great written and come with approximately all vital infos.<br />\nI would like to look more posts like this .</p>\n"
+    },
+    "link": "http://geekraj.com/building-a-seven-segment-display-widget-with-yui-3-and-raphael-js/comment-page-1/#comment-4737",
+    "status": "approved",
+    "type": "comment",
+    "author_avatar_urls": {
+      "24": "http://1.gravatar.com/avatar/a237a0bc0f02eb1a9c69dba044e61299?s=24&d=wavatar&r=g",
+      "48": "http://1.gravatar.com/avatar/a237a0bc0f02eb1a9c69dba044e61299?s=48&d=wavatar&r=g",
+      "96": "http://1.gravatar.com/avatar/a237a0bc0f02eb1a9c69dba044e61299?s=96&d=wavatar&r=g"
+    },
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "http://geekraj.com/wp-json/wp/v2/comments/4737"
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://geekraj.com/wp-json/wp/v2/comments"
+        }
+      ],
+      "up": [
+        {
+          "embeddable": true,
+          "post_type": "post",
+          "href": "http://geekraj.com/wp-json/wp/v2/posts/458"
+        }
+      ]
+    }
+  },
+  {
+    "id": 4719,
+    "post": 898,
+    "parent": 0,
+    "author": 0,
+    "author_name": "ora exacta",
+    "author_url": "http://orafixa.eu",
+    "date": "2015-10-03T00:33:22",
+    "date_gmt": "2015-10-03T08:33:22",
+    "content": {
+      "rendered": "<p>Am aflat aceasta pagina, dupa ce am cautat despre Drawing Hilbert<br />\ncurves with an NXT Plotter pe Google. Se pare ca informatia dvs e<br />\nfoarte valoroasa, mai ales ca am mai gasit aici<br />\nsi despre ora, ora exacta, lucruri interesante si folositoare.<br />\nMult succes in continuare!</p>\n"
+    },
+    "link": "http://geekraj.com/drawing-hilbert-curves-with-an-nxt-plotter/comment-page-1/#comment-4719",
+    "status": "approved",
+    "type": "comment",
+    "author_avatar_urls": {
+      "24": "http://2.gravatar.com/avatar/e73c4aa489dec6c16ce22f708015ed53?s=24&d=wavatar&r=g",
+      "48": "http://2.gravatar.com/avatar/e73c4aa489dec6c16ce22f708015ed53?s=48&d=wavatar&r=g",
+      "96": "http://2.gravatar.com/avatar/e73c4aa489dec6c16ce22f708015ed53?s=96&d=wavatar&r=g"
+    },
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "http://geekraj.com/wp-json/wp/v2/comments/4719"
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://geekraj.com/wp-json/wp/v2/comments"
+        }
+      ],
+      "up": [
+        {
+          "embeddable": true,
+          "post_type": "post",
+          "href": "http://geekraj.com/wp-json/wp/v2/posts/898"
+        }
+      ]
+    }
+  },
+  {
+    "id": 4711,
+    "post": 940,
+    "parent": 0,
+    "author": 0,
+    "author_name": "Oleg",
+    "author_url": "",
+    "date": "2015-09-23T19:20:12",
+    "date_gmt": "2015-09-24T03:20:12",
+    "content": {
+      "rendered": "<p>Would you please give me your colorduino library?</p>\n"
+    },
+    "link": "http://geekraj.com/game-of-life-on-colorduino/comment-page-1/#comment-4711",
+    "status": "approved",
+    "type": "comment",
+    "author_avatar_urls": {
+      "24": "http://2.gravatar.com/avatar/e8ba013a7a8f98bc2d7349fb86b2820a?s=24&d=wavatar&r=g",
+      "48": "http://2.gravatar.com/avatar/e8ba013a7a8f98bc2d7349fb86b2820a?s=48&d=wavatar&r=g",
+      "96": "http://2.gravatar.com/avatar/e8ba013a7a8f98bc2d7349fb86b2820a?s=96&d=wavatar&r=g"
+    },
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "http://geekraj.com/wp-json/wp/v2/comments/4711"
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://geekraj.com/wp-json/wp/v2/comments"
+        }
+      ],
+      "up": [
+        {
+          "embeddable": true,
+          "post_type": "post",
+          "href": "http://geekraj.com/wp-json/wp/v2/posts/940"
+        }
+      ]
+    }
+  },
+  {
+    "id": 4710,
+    "post": 923,
+    "parent": 0,
+    "author": 0,
+    "author_name": "Oleg",
+    "author_url": "",
+    "date": "2015-09-23T19:17:04",
+    "date_gmt": "2015-09-24T03:17:04",
+    "content": {
+      "rendered": "<p>Can&#8217;t coompile with colorduino libraries that i have.<br />\nWhere yours right working colorduino library?</p>\n"
+    },
+    "link": "http://geekraj.com/colorduino-christmas-ornament/comment-page-1/#comment-4710",
+    "status": "approved",
+    "type": "comment",
+    "author_avatar_urls": {
+      "24": "http://2.gravatar.com/avatar/e8ba013a7a8f98bc2d7349fb86b2820a?s=24&d=wavatar&r=g",
+      "48": "http://2.gravatar.com/avatar/e8ba013a7a8f98bc2d7349fb86b2820a?s=48&d=wavatar&r=g",
+      "96": "http://2.gravatar.com/avatar/e8ba013a7a8f98bc2d7349fb86b2820a?s=96&d=wavatar&r=g"
+    },
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "http://geekraj.com/wp-json/wp/v2/comments/4710"
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://geekraj.com/wp-json/wp/v2/comments"
+        }
+      ],
+      "up": [
+        {
+          "embeddable": true,
+          "post_type": "post",
+          "href": "http://geekraj.com/wp-json/wp/v2/posts/923"
+        }
+      ]
+    }
+  },
+  {
+    "id": 4599,
+    "post": 816,
+    "parent": 0,
+    "author": 0,
+    "author_name": "Hari Chinthalapale",
+    "author_url": "http://sleightofhandtech.com",
+    "date": "2015-04-01T12:32:49",
+    "date_gmt": "2015-04-01T20:32:49",
+    "content": {
+      "rendered": "<p>Ok..you were not kidding 8)..You don&#8217;t disappoint &#8211; ahem &#8211; mathematically speaking that is..:D</p>\n"
+    },
+    "link": "http://geekraj.com/shades-of-grey/comment-page-1/#comment-4599",
+    "status": "approved",
+    "type": "comment",
+    "author_avatar_urls": {
+      "24": "http://2.gravatar.com/avatar/26f47d538be736cc75ec31a14f986c89?s=24&d=wavatar&r=g",
+      "48": "http://2.gravatar.com/avatar/26f47d538be736cc75ec31a14f986c89?s=48&d=wavatar&r=g",
+      "96": "http://2.gravatar.com/avatar/26f47d538be736cc75ec31a14f986c89?s=96&d=wavatar&r=g"
+    },
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "http://geekraj.com/wp-json/wp/v2/comments/4599"
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://geekraj.com/wp-json/wp/v2/comments"
+        }
+      ],
+      "up": [
+        {
+          "embeddable": true,
+          "post_type": "post",
+          "href": "http://geekraj.com/wp-json/wp/v2/posts/816"
+        }
+      ]
+    }
+  },
+  {
+    "id": 4383,
+    "post": 733,
+    "parent": 0,
+    "author": 0,
+    "author_name": "gordo",
+    "author_url": "",
+    "date": "2014-09-25T06:50:35",
+    "date_gmt": "2014-09-25T14:50:35",
+    "content": {
+      "rendered": "<p>Hi, I built a pcb with atmega328p-pu to run as a standalone for this sketch you made and I followed the schematic you provided, thank  you!!<br />\nI am having crashing after the second or third song and pressing the reset does not help. I think it is the size because when I upload it I get a warning about the size may cause instability. It never crashes at the same spot and I have exceeded the limit of my abilities to troubleshoot the problem and was hoping you might give me some ideas as to what the problem might be. The board I made is a simple arduino with 16mhz crystal and the 2 22pf caps to gnd. The only difference in my schematic is the color of the leds and the size of the resistors which I used a resistor calculator to determine. It is a brilliant piece of work and I had hoped to make a few of the boards to give away for Christmas tree decorations but now I&#8217;m stuck on this. I also tried to upload the sketch without the bootloader using a usbasp but I couldn&#8217;t get it to work. Thanks for any help</p>\n"
+    },
+    "link": "http://geekraj.com/christmas-tunes-and-light-show-with-arduino/comment-page-1/#comment-4383",
+    "status": "approved",
+    "type": "comment",
+    "author_avatar_urls": {
+      "24": "http://1.gravatar.com/avatar/ace87bc5ec5ad69d2833f76ad4035b07?s=24&d=wavatar&r=g",
+      "48": "http://1.gravatar.com/avatar/ace87bc5ec5ad69d2833f76ad4035b07?s=48&d=wavatar&r=g",
+      "96": "http://1.gravatar.com/avatar/ace87bc5ec5ad69d2833f76ad4035b07?s=96&d=wavatar&r=g"
+    },
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "http://geekraj.com/wp-json/wp/v2/comments/4383"
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://geekraj.com/wp-json/wp/v2/comments"
+        }
+      ],
+      "up": [
+        {
+          "embeddable": true,
+          "post_type": "post",
+          "href": "http://geekraj.com/wp-json/wp/v2/posts/733"
+        }
+      ]
+    }
+  },
+  {
+    "id": 2203,
+    "post": 733,
+    "parent": 0,
+    "author": 1,
+    "author_name": "Raj Madhuram",
+    "author_url": "http://",
+    "date": "2012-12-24T23:33:08",
+    "date_gmt": "2012-12-25T07:33:08",
+    "content": {
+      "rendered": "<p>Thanks Martin! Great to know you were able to get it running on Attiny85. I just used my very limited music reading knowledge and tons of patience to encode the notes :) I don&#8217;t have any more encoded. I&#8217;ll try to get some more done when I find time. In case if you encode any more, please feel free to send a github pull request. Wish you a merry Christmas!</p>\n"
+    },
+    "link": "http://geekraj.com/christmas-tunes-and-light-show-with-arduino/comment-page-1/#comment-2203",
+    "status": "approved",
+    "type": "comment",
+    "author_avatar_urls": {
+      "24": "http://1.gravatar.com/avatar/4b16da4657265c7367dc6fcc7876ac87?s=24&d=wavatar&r=g",
+      "48": "http://1.gravatar.com/avatar/4b16da4657265c7367dc6fcc7876ac87?s=48&d=wavatar&r=g",
+      "96": "http://1.gravatar.com/avatar/4b16da4657265c7367dc6fcc7876ac87?s=96&d=wavatar&r=g"
+    },
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "http://geekraj.com/wp-json/wp/v2/comments/2203"
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://geekraj.com/wp-json/wp/v2/comments"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "http://geekraj.com/wp-json/wp/v2/users/1"
+        }
+      ],
+      "up": [
+        {
+          "embeddable": true,
+          "post_type": "post",
+          "href": "http://geekraj.com/wp-json/wp/v2/posts/733"
+        }
+      ]
+    }
+  },
+  {
+    "id": 2195,
+    "post": 733,
+    "parent": 0,
+    "author": 0,
+    "author_name": "Martin",
+    "author_url": "",
+    "date": "2012-12-23T11:58:15",
+    "date_gmt": "2012-12-23T19:58:15",
+    "content": {
+      "rendered": "<p>Cool project you made! I have ported it to an Attiny85 as a tiny standalone project. I needed to rewrite the program a bit due to the limitations of the attiny85.</p>\n<p>One question: Which tool did you use to encode the sheet music into note values and durations? And do you have more tunes already encoded?</p>\n"
+    },
+    "link": "http://geekraj.com/christmas-tunes-and-light-show-with-arduino/comment-page-1/#comment-2195",
+    "status": "approved",
+    "type": "comment",
+    "author_avatar_urls": {
+      "24": "http://0.gravatar.com/avatar/93890910239096d7b3fc9dd96badcb97?s=24&d=wavatar&r=g",
+      "48": "http://0.gravatar.com/avatar/93890910239096d7b3fc9dd96badcb97?s=48&d=wavatar&r=g",
+      "96": "http://0.gravatar.com/avatar/93890910239096d7b3fc9dd96badcb97?s=96&d=wavatar&r=g"
+    },
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "http://geekraj.com/wp-json/wp/v2/comments/2195"
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://geekraj.com/wp-json/wp/v2/comments"
+        }
+      ],
+      "up": [
+        {
+          "embeddable": true,
+          "post_type": "post",
+          "href": "http://geekraj.com/wp-json/wp/v2/posts/733"
+        }
+      ]
+    }
+  },
+  {
+    "id": 2086,
+    "post": 688,
+    "parent": 0,
+    "author": 0,
+    "author_name": "Alexander Kolotov",
+    "author_url": "http://nnxt.blogspot.com",
+    "date": "2012-11-28T11:13:18",
+    "date_gmt": "2012-11-28T19:13:18",
+    "content": {
+      "rendered": "<p>In order to reduce size of if-else operator in NXT-G (visual programming environment) please un-check &#8220;Flat view&#8221; box in the settings of the particular switch block.</p>\n"
+    },
+    "link": "http://geekraj.com/nxt-virtual-piano-fail/comment-page-1/#comment-2086",
+    "status": "approved",
+    "type": "comment",
+    "author_avatar_urls": {
+      "24": "http://0.gravatar.com/avatar/c749758469f16448323793482ecfee16?s=24&d=wavatar&r=g",
+      "48": "http://0.gravatar.com/avatar/c749758469f16448323793482ecfee16?s=48&d=wavatar&r=g",
+      "96": "http://0.gravatar.com/avatar/c749758469f16448323793482ecfee16?s=96&d=wavatar&r=g"
+    },
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "http://geekraj.com/wp-json/wp/v2/comments/2086"
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://geekraj.com/wp-json/wp/v2/comments"
+        }
+      ],
+      "up": [
+        {
+          "embeddable": true,
+          "post_type": "post",
+          "href": "http://geekraj.com/wp-json/wp/v2/posts/688"
+        }
+      ]
+    }
+  },
+  {
+    "id": 975,
+    "post": 115,
+    "parent": 0,
+    "author": 0,
+    "author_name": "Just Some Guy",
+    "author_url": "",
+    "date": "2012-05-16T13:39:31",
+    "date_gmt": "2012-05-16T21:39:31",
+    "content": {
+      "rendered": "<p>You just fixed something I had been working on for almost two weeks.  I couldn&#8217;t even figure out how the stuff was being &#8216;auto checked in&#8217; and why it didn&#8217;t have a log for the item.  You sir, rock!</p>\n"
+    },
+    "link": "http://geekraj.com/making-eclipse-ignore-svn-entries-in-the-build-output/comment-page-1/#comment-975",
+    "status": "approved",
+    "type": "comment",
+    "author_avatar_urls": {
+      "24": "http://0.gravatar.com/avatar/c19782903effbb21786e89cf89acc980?s=24&d=wavatar&r=g",
+      "48": "http://0.gravatar.com/avatar/c19782903effbb21786e89cf89acc980?s=48&d=wavatar&r=g",
+      "96": "http://0.gravatar.com/avatar/c19782903effbb21786e89cf89acc980?s=96&d=wavatar&r=g"
+    },
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "http://geekraj.com/wp-json/wp/v2/comments/975"
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://geekraj.com/wp-json/wp/v2/comments"
+        }
+      ],
+      "up": [
+        {
+          "embeddable": true,
+          "post_type": "post",
+          "href": "http://geekraj.com/wp-json/wp/v2/posts/115"
+        }
+      ]
+    }
+  },
+  {
+    "id": 761,
+    "post": 2,
+    "parent": 0,
+    "author": 0,
+    "author_name": "Brian Murphy",
+    "author_url": "",
+    "date": "2012-02-01T09:37:20",
+    "date_gmt": "2012-02-01T17:37:20",
+    "content": {
+      "rendered": "<p>Hey Raj!  How are you?  Carsten pointed me here.  Hope all is well!</p>\n<p>Brian</p>\n"
+    },
+    "link": "http://geekraj.com/about/comment-page-1/#comment-761",
+    "status": "approved",
+    "type": "comment",
+    "author_avatar_urls": {
+      "24": "http://0.gravatar.com/avatar/94724a6310e9f9e30fc486ac55c45fc5?s=24&d=wavatar&r=g",
+      "48": "http://0.gravatar.com/avatar/94724a6310e9f9e30fc486ac55c45fc5?s=48&d=wavatar&r=g",
+      "96": "http://0.gravatar.com/avatar/94724a6310e9f9e30fc486ac55c45fc5?s=96&d=wavatar&r=g"
+    },
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "http://geekraj.com/wp-json/wp/v2/comments/761"
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://geekraj.com/wp-json/wp/v2/comments"
+        }
+      ],
+      "up": [
+        {
+          "embeddable": true,
+          "post_type": "page",
+          "href": "http://geekraj.com/wp-json/wp/v2/pages/2"
+        }
+      ]
+    }
+  },
+  {
+    "id": 368,
+    "post": 278,
+    "parent": 367,
+    "author": 1,
+    "author_name": "Raj Madhuram",
+    "author_url": "http://",
+    "date": "2011-07-26T12:46:17",
+    "date_gmt": "2011-07-26T20:46:17",
+    "content": {
+      "rendered": "<p>Hi Tarsis, thanks for your feedback and sorry for the late reply.<br />\nHere is the secret sauce &#8211; From a php script, I periodically login using my euler credentials and scrape the scores from profile page and store it in a file cache. When page renders, if the cache is expired, I re-scrape, otherwise display the one in cache.</p>\n<p>Thanks,<br />\nRaj</p>\n"
+    },
+    "link": "http://geekraj.com/project-euler-widget/comment-page-1/#comment-368",
+    "status": "approved",
+    "type": "comment",
+    "author_avatar_urls": {
+      "24": "http://1.gravatar.com/avatar/4b16da4657265c7367dc6fcc7876ac87?s=24&d=wavatar&r=g",
+      "48": "http://1.gravatar.com/avatar/4b16da4657265c7367dc6fcc7876ac87?s=48&d=wavatar&r=g",
+      "96": "http://1.gravatar.com/avatar/4b16da4657265c7367dc6fcc7876ac87?s=96&d=wavatar&r=g"
+    },
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "http://geekraj.com/wp-json/wp/v2/comments/368"
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://geekraj.com/wp-json/wp/v2/comments"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "http://geekraj.com/wp-json/wp/v2/users/1"
+        }
+      ],
+      "up": [
+        {
+          "embeddable": true,
+          "post_type": "post",
+          "href": "http://geekraj.com/wp-json/wp/v2/posts/278"
+        }
+      ],
+      "in-reply-to": [
+        {
+          "embeddable": true,
+          "href": "http://geekraj.com/wp-json/wp/v2/comments/367"
+        }
+      ]
+    }
+  },
+  {
+    "id": 367,
+    "post": 278,
+    "parent": 0,
+    "author": 0,
+    "author_name": "Tarsis Azevedo",
+    "author_url": "http://tarsisazevedo.posterous.com",
+    "date": "2011-07-08T16:08:07",
+    "date_gmt": "2011-07-09T00:08:07",
+    "content": {
+      "rendered": "<p>Hi Raj, this is awesome.</p>\n<p>But, I have a question. How you access the euler&#8217;s id info? You scrap the pages?</p>\n<p>Thanks,</p>\n<p>Tarsis Azevedo</p>\n"
+    },
+    "link": "http://geekraj.com/project-euler-widget/comment-page-1/#comment-367",
+    "status": "approved",
+    "type": "comment",
+    "author_avatar_urls": {
+      "24": "http://1.gravatar.com/avatar/a83885421a7b4b8aff3325bd4e7f9954?s=24&d=wavatar&r=g",
+      "48": "http://1.gravatar.com/avatar/a83885421a7b4b8aff3325bd4e7f9954?s=48&d=wavatar&r=g",
+      "96": "http://1.gravatar.com/avatar/a83885421a7b4b8aff3325bd4e7f9954?s=96&d=wavatar&r=g"
+    },
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "http://geekraj.com/wp-json/wp/v2/comments/367"
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://geekraj.com/wp-json/wp/v2/comments"
+        }
+      ],
+      "up": [
+        {
+          "embeddable": true,
+          "post_type": "post",
+          "href": "http://geekraj.com/wp-json/wp/v2/posts/278"
+        }
+      ],
+      "children": [
+        {
+          "href": "http://geekraj.com/wp-json/wp/v2/comments?parent=367"
+        }
+      ]
+    }
+  },
+  {
+    "id": 338,
+    "post": 454,
+    "parent": 0,
+    "author": 1,
+    "author_name": "Raj Madhuram",
+    "author_url": "http://",
+    "date": "2010-11-22T14:00:37",
+    "date_gmt": "2010-11-22T22:00:37",
+    "content": {
+      "rendered": "<p>Thanks Srithar. I made a few changes to make the content width a bit larger. If you need it, I can send you the modified css and the sprite.</p>\n"
+    },
+    "link": "http://geekraj.com/jquery-mobile-alpha-is-released-and-it-is-awesome/comment-page-1/#comment-338",
+    "status": "approved",
+    "type": "comment",
+    "author_avatar_urls": {
+      "24": "http://1.gravatar.com/avatar/4b16da4657265c7367dc6fcc7876ac87?s=24&d=wavatar&r=g",
+      "48": "http://1.gravatar.com/avatar/4b16da4657265c7367dc6fcc7876ac87?s=48&d=wavatar&r=g",
+      "96": "http://1.gravatar.com/avatar/4b16da4657265c7367dc6fcc7876ac87?s=96&d=wavatar&r=g"
+    },
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "http://geekraj.com/wp-json/wp/v2/comments/338"
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://geekraj.com/wp-json/wp/v2/comments"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "http://geekraj.com/wp-json/wp/v2/users/1"
+        }
+      ],
+      "up": [
+        {
+          "embeddable": true,
+          "post_type": "post",
+          "href": "http://geekraj.com/wp-json/wp/v2/posts/454"
+        }
+      ]
+    }
+  },
+  {
+    "id": 337,
+    "post": 454,
+    "parent": 0,
+    "author": 0,
+    "author_name": "Srithar",
+    "author_url": "http://www.srithar.com",
+    "date": "2010-11-19T18:54:27",
+    "date_gmt": "2010-11-20T02:54:27",
+    "content": {
+      "rendered": "<p>Very nice blog&#8230; n of-course stuff too :) Thanks for saving time to identify really good blog theme.</p>\n"
+    },
+    "link": "http://geekraj.com/jquery-mobile-alpha-is-released-and-it-is-awesome/comment-page-1/#comment-337",
+    "status": "approved",
+    "type": "comment",
+    "author_avatar_urls": {
+      "24": "http://1.gravatar.com/avatar/7a732bdd14a7b4b6f52b5dc985039bf7?s=24&d=wavatar&r=g",
+      "48": "http://1.gravatar.com/avatar/7a732bdd14a7b4b6f52b5dc985039bf7?s=48&d=wavatar&r=g",
+      "96": "http://1.gravatar.com/avatar/7a732bdd14a7b4b6f52b5dc985039bf7?s=96&d=wavatar&r=g"
+    },
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "http://geekraj.com/wp-json/wp/v2/comments/337"
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://geekraj.com/wp-json/wp/v2/comments"
+        }
+      ],
+      "up": [
+        {
+          "embeddable": true,
+          "post_type": "post",
+          "href": "http://geekraj.com/wp-json/wp/v2/posts/454"
+        }
+      ]
+    }
+  },
+  {
+    "id": 336,
+    "post": 458,
+    "parent": 0,
+    "author": 0,
+    "author_name": "Anand",
+    "author_url": "",
+    "date": "2010-11-19T13:00:36",
+    "date_gmt": "2010-11-19T21:00:36",
+    "content": {
+      "rendered": "<p>Awesome man.  Thanks for sharing this.</p>\n"
+    },
+    "link": "http://geekraj.com/building-a-seven-segment-display-widget-with-yui-3-and-raphael-js/comment-page-1/#comment-336",
+    "status": "approved",
+    "type": "comment",
+    "author_avatar_urls": {
+      "24": "http://2.gravatar.com/avatar/e0f7b3c0fdd85c1f0a68f10b26980c52?s=24&d=wavatar&r=g",
+      "48": "http://2.gravatar.com/avatar/e0f7b3c0fdd85c1f0a68f10b26980c52?s=48&d=wavatar&r=g",
+      "96": "http://2.gravatar.com/avatar/e0f7b3c0fdd85c1f0a68f10b26980c52?s=96&d=wavatar&r=g"
+    },
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "http://geekraj.com/wp-json/wp/v2/comments/336"
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://geekraj.com/wp-json/wp/v2/comments"
+        }
+      ],
+      "up": [
+        {
+          "embeddable": true,
+          "post_type": "post",
+          "href": "http://geekraj.com/wp-json/wp/v2/posts/458"
+        }
+      ]
+    }
+  },
+  {
+    "id": 326,
+    "post": 429,
+    "parent": 0,
+    "author": 1,
+    "author_name": "Raj Madhuram",
+    "author_url": "http://",
+    "date": "2010-02-22T10:35:18",
+    "date_gmt": "2010-02-22T05:05:18",
+    "content": {
+      "rendered": "<p>Wayne, please see the update above. I checked my installation history and found that this plugin was installed 4 minutes after PDT. I just could not remember how it got there, but definitely it is proof it did not come from the distro. Thanks for checking and letting me know!</p>\n"
+    },
+    "link": "http://geekraj.com/profanity-in-eclipse-distro/comment-page-1/#comment-326",
+    "status": "approved",
+    "type": "comment",
+    "author_avatar_urls": {
+      "24": "http://1.gravatar.com/avatar/4b16da4657265c7367dc6fcc7876ac87?s=24&d=wavatar&r=g",
+      "48": "http://1.gravatar.com/avatar/4b16da4657265c7367dc6fcc7876ac87?s=48&d=wavatar&r=g",
+      "96": "http://1.gravatar.com/avatar/4b16da4657265c7367dc6fcc7876ac87?s=96&d=wavatar&r=g"
+    },
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "http://geekraj.com/wp-json/wp/v2/comments/326"
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://geekraj.com/wp-json/wp/v2/comments"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "http://geekraj.com/wp-json/wp/v2/users/1"
+        }
+      ],
+      "up": [
+        {
+          "embeddable": true,
+          "post_type": "post",
+          "href": "http://geekraj.com/wp-json/wp/v2/posts/429"
+        }
+      ]
+    }
+  },
+  {
+    "id": 325,
+    "post": 429,
+    "parent": 0,
+    "author": 0,
+    "author_name": "Wayne Beaton",
+    "author_url": "http://www.eclipse.org",
+    "date": "2010-02-22T09:36:38",
+    "date_gmt": "2010-02-22T04:06:38",
+    "content": {
+      "rendered": "<p>If this is real, it is most definitely a bug. At least in the sense that we think of them at eclipse.org.</p>\n"
+    },
+    "link": "http://geekraj.com/profanity-in-eclipse-distro/comment-page-1/#comment-325",
+    "status": "approved",
+    "type": "comment",
+    "author_avatar_urls": {
+      "24": "http://0.gravatar.com/avatar/f99ef5f447f44adf89676d7d07a75fb7?s=24&d=wavatar&r=g",
+      "48": "http://0.gravatar.com/avatar/f99ef5f447f44adf89676d7d07a75fb7?s=48&d=wavatar&r=g",
+      "96": "http://0.gravatar.com/avatar/f99ef5f447f44adf89676d7d07a75fb7?s=96&d=wavatar&r=g"
+    },
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "http://geekraj.com/wp-json/wp/v2/comments/325"
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://geekraj.com/wp-json/wp/v2/comments"
+        }
+      ],
+      "up": [
+        {
+          "embeddable": true,
+          "post_type": "post",
+          "href": "http://geekraj.com/wp-json/wp/v2/posts/429"
+        }
+      ]
+    }
+  },
+  {
+    "id": 324,
+    "post": 429,
+    "parent": 0,
+    "author": 1,
+    "author_name": "Raj Madhuram",
+    "author_url": "http://",
+    "date": "2010-02-22T02:53:31",
+    "date_gmt": "2010-02-21T21:23:31",
+    "content": {
+      "rendered": "<p>@Donald, I don&#8217;t think it is a bug. This note is just about my observation and my personal opinion on the issue.</p>\n<p>@Pratik, thanks for the comment! I can see the lighter side of it definitely, and I do think it is funny. But if I have this kind of text on a product I deliver, will my customers tolerate this? May be, maybe not. But I definitely wouldn&#8217;t take that risk and would take all steps necessary to keep it clean. </p>\n<p>Also let me make it clear that DBEdit is one of the excellent plugins available, and this note is by no means to belittle that. </p>\n<p>@Wayne, thanks for the note. I will check if I still have that tarball available. I know for sure I got it from one of the mirrors. AFAIK, I have not installed any other plugins on this particular machine.</p>\n"
+    },
+    "link": "http://geekraj.com/profanity-in-eclipse-distro/comment-page-1/#comment-324",
+    "status": "approved",
+    "type": "comment",
+    "author_avatar_urls": {
+      "24": "http://1.gravatar.com/avatar/4b16da4657265c7367dc6fcc7876ac87?s=24&d=wavatar&r=g",
+      "48": "http://1.gravatar.com/avatar/4b16da4657265c7367dc6fcc7876ac87?s=48&d=wavatar&r=g",
+      "96": "http://1.gravatar.com/avatar/4b16da4657265c7367dc6fcc7876ac87?s=96&d=wavatar&r=g"
+    },
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "http://geekraj.com/wp-json/wp/v2/comments/324"
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://geekraj.com/wp-json/wp/v2/comments"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "http://geekraj.com/wp-json/wp/v2/users/1"
+        }
+      ],
+      "up": [
+        {
+          "embeddable": true,
+          "post_type": "post",
+          "href": "http://geekraj.com/wp-json/wp/v2/posts/429"
+        }
+      ]
+    }
+  },
+  {
+    "id": 323,
+    "post": 429,
+    "parent": 0,
+    "author": 0,
+    "author_name": "Wayne Beaton",
+    "author_url": "http://www.eclipse.org",
+    "date": "2010-02-22T01:27:39",
+    "date_gmt": "2010-02-21T19:57:39",
+    "content": {
+      "rendered": "<p>Thanks for taking the time to research the source of this Raj. However, as near as I can tell, this particular plug-in is *not* distributed as part of &#8220;Eclipse for PHP Developers&#8221; [1] SR-1 (which, I believe is what you&#8217;re using). I&#8217;ve just downloaded it myself and the plug-in does not appear. I will investigate earlier versions.</p>\n<p>Could this plug-in have been installed separately at some point?</p>\n<p>[1] <a href=\"http://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/galileo/SR1/eclipse-php-galileo-SR1-linux-gtk.tar.gz\" rel=\"nofollow ugc\">http://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/galileo/SR1/eclipse-php-galileo-SR1-linux-gtk.tar.gz</a></p>\n"
+    },
+    "link": "http://geekraj.com/profanity-in-eclipse-distro/comment-page-1/#comment-323",
+    "status": "approved",
+    "type": "comment",
+    "author_avatar_urls": {
+      "24": "http://0.gravatar.com/avatar/f99ef5f447f44adf89676d7d07a75fb7?s=24&d=wavatar&r=g",
+      "48": "http://0.gravatar.com/avatar/f99ef5f447f44adf89676d7d07a75fb7?s=48&d=wavatar&r=g",
+      "96": "http://0.gravatar.com/avatar/f99ef5f447f44adf89676d7d07a75fb7?s=96&d=wavatar&r=g"
+    },
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "http://geekraj.com/wp-json/wp/v2/comments/323"
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://geekraj.com/wp-json/wp/v2/comments"
+        }
+      ],
+      "up": [
+        {
+          "embeddable": true,
+          "post_type": "post",
+          "href": "http://geekraj.com/wp-json/wp/v2/posts/429"
+        }
+      ]
+    }
+  },
+  {
+    "id": 322,
+    "post": 429,
+    "parent": 0,
+    "author": 0,
+    "author_name": "pratik patel",
+    "author_url": "http://jroller.com/prpatel",
+    "date": "2010-02-21T23:42:36",
+    "date_gmt": "2010-02-21T18:12:36",
+    "content": {
+      "rendered": "<p>&#8220;spit happens&#8221; ? I don&#8217;t get it, what&#8217;s obscene about that?</p>\n<p>Seriously though, lighten up. and for what it&#8217;s worth, I don&#8217;t see it in my Eclipse install. Perhaps check some other plugin hasn&#8217;t hijacked the .sql extension&#8230;</p>\n"
+    },
+    "link": "http://geekraj.com/profanity-in-eclipse-distro/comment-page-1/#comment-322",
+    "status": "approved",
+    "type": "comment",
+    "author_avatar_urls": {
+      "24": "http://1.gravatar.com/avatar/da022b30ddf2a49bc44780fed2d125a0?s=24&d=wavatar&r=g",
+      "48": "http://1.gravatar.com/avatar/da022b30ddf2a49bc44780fed2d125a0?s=48&d=wavatar&r=g",
+      "96": "http://1.gravatar.com/avatar/da022b30ddf2a49bc44780fed2d125a0?s=96&d=wavatar&r=g"
+    },
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "http://geekraj.com/wp-json/wp/v2/comments/322"
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://geekraj.com/wp-json/wp/v2/comments"
+        }
+      ],
+      "up": [
+        {
+          "embeddable": true,
+          "post_type": "post",
+          "href": "http://geekraj.com/wp-json/wp/v2/posts/429"
+        }
+      ]
+    }
+  },
+  {
+    "id": 321,
+    "post": 429,
+    "parent": 0,
+    "author": 0,
+    "author_name": "Donald Smith",
+    "author_url": "",
+    "date": "2010-02-21T21:36:27",
+    "date_gmt": "2010-02-21T16:06:27",
+    "content": {
+      "rendered": "<p>You should open a bug if its a concern.</p>\n"
+    },
+    "link": "http://geekraj.com/profanity-in-eclipse-distro/comment-page-1/#comment-321",
+    "status": "approved",
+    "type": "comment",
+    "author_avatar_urls": {
+      "24": "http://0.gravatar.com/avatar/019be1157ceba7c833a5ede61c66824f?s=24&d=wavatar&r=g",
+      "48": "http://0.gravatar.com/avatar/019be1157ceba7c833a5ede61c66824f?s=48&d=wavatar&r=g",
+      "96": "http://0.gravatar.com/avatar/019be1157ceba7c833a5ede61c66824f?s=96&d=wavatar&r=g"
+    },
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "http://geekraj.com/wp-json/wp/v2/comments/321"
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://geekraj.com/wp-json/wp/v2/comments"
+        }
+      ],
+      "up": [
+        {
+          "embeddable": true,
+          "post_type": "post",
+          "href": "http://geekraj.com/wp-json/wp/v2/posts/429"
+        }
+      ]
+    }
+  },
+  {
+    "id": 312,
+    "post": 331,
+    "parent": 0,
+    "author": 0,
+    "author_name": "Caroline",
+    "author_url": "",
+    "date": "2009-12-24T04:21:33",
+    "date_gmt": "2009-12-23T22:51:33",
+    "content": {
+      "rendered": "<p>All cutties, especially pic 8 :-)<br />\nThanks Madhuma!</p>\n"
+    },
+    "link": "http://geekraj.com/kevins-birthday/comment-page-1/#comment-312",
+    "status": "approved",
+    "type": "comment",
+    "author_avatar_urls": {
+      "24": "http://1.gravatar.com/avatar/ddfba9d9d8f5f22176474bb96b266565?s=24&d=wavatar&r=g",
+      "48": "http://1.gravatar.com/avatar/ddfba9d9d8f5f22176474bb96b266565?s=48&d=wavatar&r=g",
+      "96": "http://1.gravatar.com/avatar/ddfba9d9d8f5f22176474bb96b266565?s=96&d=wavatar&r=g"
+    },
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "http://geekraj.com/wp-json/wp/v2/comments/312"
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://geekraj.com/wp-json/wp/v2/comments"
+        }
+      ],
+      "up": [
+        {
+          "embeddable": true,
+          "post_type": "post",
+          "href": "http://geekraj.com/wp-json/wp/v2/posts/331"
+        }
+      ]
+    }
+  },
+  {
+    "id": 311,
+    "post": 75,
+    "parent": 0,
+    "author": 0,
+    "author_name": "Anand Sankaran",
+    "author_url": "http://blog.anands.net",
+    "date": "2009-12-22T11:32:44",
+    "date_gmt": "2009-12-22T06:02:44",
+    "content": {
+      "rendered": "<p>Totally</p>\n<p>My gallery is run off JAlbum, it totally rocks.</p>\n"
+    },
+    "link": "http://geekraj.com/jalbum/comment-page-1/#comment-311",
+    "status": "approved",
+    "type": "comment",
+    "author_avatar_urls": {
+      "24": "http://2.gravatar.com/avatar/e0f7b3c0fdd85c1f0a68f10b26980c52?s=24&d=wavatar&r=g",
+      "48": "http://2.gravatar.com/avatar/e0f7b3c0fdd85c1f0a68f10b26980c52?s=48&d=wavatar&r=g",
+      "96": "http://2.gravatar.com/avatar/e0f7b3c0fdd85c1f0a68f10b26980c52?s=96&d=wavatar&r=g"
+    },
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "http://geekraj.com/wp-json/wp/v2/comments/311"
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://geekraj.com/wp-json/wp/v2/comments"
+        }
+      ],
+      "up": [
+        {
+          "embeddable": true,
+          "post_type": "post",
+          "href": "http://geekraj.com/wp-json/wp/v2/posts/75"
+        }
+      ]
+    }
+  },
+  {
+    "id": 310,
+    "post": 356,
+    "parent": 0,
+    "author": 0,
+    "author_name": "Anand Sankaran",
+    "author_url": "http://blog.anands.net",
+    "date": "2009-12-22T11:31:31",
+    "date_gmt": "2009-12-22T06:01:31",
+    "content": {
+      "rendered": "<p>Awesome man.</p>\n"
+    },
+    "link": "http://geekraj.com/reached-level-2-on-project-euler/comment-page-1/#comment-310",
+    "status": "approved",
+    "type": "comment",
+    "author_avatar_urls": {
+      "24": "http://2.gravatar.com/avatar/e0f7b3c0fdd85c1f0a68f10b26980c52?s=24&d=wavatar&r=g",
+      "48": "http://2.gravatar.com/avatar/e0f7b3c0fdd85c1f0a68f10b26980c52?s=48&d=wavatar&r=g",
+      "96": "http://2.gravatar.com/avatar/e0f7b3c0fdd85c1f0a68f10b26980c52?s=96&d=wavatar&r=g"
+    },
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "http://geekraj.com/wp-json/wp/v2/comments/310"
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://geekraj.com/wp-json/wp/v2/comments"
+        }
+      ],
+      "up": [
+        {
+          "embeddable": true,
+          "post_type": "post",
+          "href": "http://geekraj.com/wp-json/wp/v2/posts/356"
+        }
+      ]
+    }
+  },
+  {
+    "id": 309,
+    "post": 358,
+    "parent": 0,
+    "author": 0,
+    "author_name": "Uma Kandaswamy",
+    "author_url": "http://sigarangalainokki.wordpress.com",
+    "date": "2009-12-21T21:11:49",
+    "date_gmt": "2009-12-21T15:41:49",
+    "content": {
+      "rendered": "<p>Cool and innovative idea :) Way to go Socialware</p>\n"
+    },
+    "link": "http://geekraj.com/freeware-shareware-vaporware-and-now-socialware/comment-page-1/#comment-309",
+    "status": "approved",
+    "type": "comment",
+    "author_avatar_urls": {
+      "24": "http://0.gravatar.com/avatar/643a8dfe7bc2aa92e1ce04b910c5a5f0?s=24&d=wavatar&r=g",
+      "48": "http://0.gravatar.com/avatar/643a8dfe7bc2aa92e1ce04b910c5a5f0?s=48&d=wavatar&r=g",
+      "96": "http://0.gravatar.com/avatar/643a8dfe7bc2aa92e1ce04b910c5a5f0?s=96&d=wavatar&r=g"
+    },
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "http://geekraj.com/wp-json/wp/v2/comments/309"
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://geekraj.com/wp-json/wp/v2/comments"
+        }
+      ],
+      "up": [
+        {
+          "embeddable": true,
+          "post_type": "post",
+          "href": "http://geekraj.com/wp-json/wp/v2/posts/358"
+        }
+      ]
+    }
+  },
+  {
+    "id": 308,
+    "post": 358,
+    "parent": 0,
+    "author": 0,
+    "author_name": "Ram",
+    "author_url": "",
+    "date": "2009-12-21T02:47:28",
+    "date_gmt": "2009-12-20T21:17:28",
+    "content": {
+      "rendered": "<p>Love this idea of socialware &#8211; another face of social entrepreneurship I&#8217;ve been following. You should probably ask (may be enforce) users to donate to a social cause from a list of NGOs, organizations you like. It could be to a few specific NGOs of your liking, or to portals which give a wide choice of NGOs. Let me know and we can discuss further.</p>\n"
+    },
+    "link": "http://geekraj.com/freeware-shareware-vaporware-and-now-socialware/comment-page-1/#comment-308",
+    "status": "approved",
+    "type": "comment",
+    "author_avatar_urls": {
+      "24": "http://1.gravatar.com/avatar/46178b4b8e5bc2ee6b0bed5e789a1488?s=24&d=wavatar&r=g",
+      "48": "http://1.gravatar.com/avatar/46178b4b8e5bc2ee6b0bed5e789a1488?s=48&d=wavatar&r=g",
+      "96": "http://1.gravatar.com/avatar/46178b4b8e5bc2ee6b0bed5e789a1488?s=96&d=wavatar&r=g"
+    },
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "http://geekraj.com/wp-json/wp/v2/comments/308"
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://geekraj.com/wp-json/wp/v2/comments"
+        }
+      ],
+      "up": [
+        {
+          "embeddable": true,
+          "post_type": "post",
+          "href": "http://geekraj.com/wp-json/wp/v2/posts/358"
+        }
+      ]
+    }
+  },
+  {
+    "id": 300,
+    "post": 278,
+    "parent": 0,
+    "author": 1,
+    "author_name": "Raj Madhuram",
+    "author_url": "http://",
+    "date": "2009-10-22T06:21:40",
+    "date_gmt": "2009-10-22T00:51:40",
+    "content": {
+      "rendered": "<p>Thanks Jan! It looks awesome. I had it on my roadmap, but you beat me on this one :) I can open up a repository in sourceforge or something so we can collaborate and have more nice additions. </p>\n<p>Regards,<br />\nRaj</p>\n"
+    },
+    "link": "http://geekraj.com/project-euler-widget/comment-page-1/#comment-300",
+    "status": "approved",
+    "type": "comment",
+    "author_avatar_urls": {
+      "24": "http://1.gravatar.com/avatar/4b16da4657265c7367dc6fcc7876ac87?s=24&d=wavatar&r=g",
+      "48": "http://1.gravatar.com/avatar/4b16da4657265c7367dc6fcc7876ac87?s=48&d=wavatar&r=g",
+      "96": "http://1.gravatar.com/avatar/4b16da4657265c7367dc6fcc7876ac87?s=96&d=wavatar&r=g"
+    },
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "http://geekraj.com/wp-json/wp/v2/comments/300"
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://geekraj.com/wp-json/wp/v2/comments"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "http://geekraj.com/wp-json/wp/v2/users/1"
+        }
+      ],
+      "up": [
+        {
+          "embeddable": true,
+          "post_type": "post",
+          "href": "http://geekraj.com/wp-json/wp/v2/posts/278"
+        }
+      ]
+    }
+  },
+  {
+    "id": 299,
+    "post": 278,
+    "parent": 0,
+    "author": 0,
+    "author_name": "jan",
+    "author_url": "http://houbysoft.com/",
+    "date": "2009-10-21T04:44:17",
+    "date_gmt": "2009-10-20T23:14:17",
+    "content": {
+      "rendered": "<p>Hi, thanks for the widget!</p>\n<p>I thought that it would be cool for it to show levels, so I created a simple modification which now shows a small image corresponding to your level next to the displayed score.</p>\n<p>You can see how it looks and works by going to <a href=\"http://houbysoft.com/en/about.php\" rel=\"nofollow ugc\">http://houbysoft.com/en/about.php</a> and scrolling down on the page, that is where my badge is displayed.</p>\n<p>To use it, just replace <a href=\"http://www.geekraj.com/euler/euler.js\" rel=\"nofollow ugc\">http://www.geekraj.com/euler/euler.js</a> with <a href=\"http://houbysoft.com/scripts/euler.js\" rel=\"nofollow ugc\">http://houbysoft.com/scripts/euler.js</a> in the original code, so you would write this:</p>\n<p><code></p>\n<p>       var es = new EulerScore('houbysoft');   // replace with your id.</p>\n<p></code></p>\n<p>@rmadhuram : I am of course open to you adapting my patch and replacing your euler.js with mine, only please keep the note in the source and give me a small mention somewhere :) Thanks a lot for running the backend and making the original code!</p>\n<p>Feedback is welcome.</p>\n"
+    },
+    "link": "http://geekraj.com/project-euler-widget/comment-page-1/#comment-299",
+    "status": "approved",
+    "type": "comment",
+    "author_avatar_urls": {
+      "24": "http://0.gravatar.com/avatar/3b982151a5cdd07089aada29c4d20d27?s=24&d=wavatar&r=g",
+      "48": "http://0.gravatar.com/avatar/3b982151a5cdd07089aada29c4d20d27?s=48&d=wavatar&r=g",
+      "96": "http://0.gravatar.com/avatar/3b982151a5cdd07089aada29c4d20d27?s=96&d=wavatar&r=g"
+    },
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "http://geekraj.com/wp-json/wp/v2/comments/299"
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://geekraj.com/wp-json/wp/v2/comments"
+        }
+      ],
+      "up": [
+        {
+          "embeddable": true,
+          "post_type": "post",
+          "href": "http://geekraj.com/wp-json/wp/v2/posts/278"
+        }
+      ]
+    }
+  },
+  {
+    "id": 98,
+    "post": 2,
+    "parent": 0,
+    "author": 0,
+    "author_name": "JTraining",
+    "author_url": "http://www.jtraining.com",
+    "date": "2009-07-22T15:47:14",
+    "date_gmt": "2009-07-22T10:17:14",
+    "content": {
+      "rendered": "<p>Hi Raj,</p>\n<p>Nice blog! We have just launched a new initiative called JTraining. This is a Java community, focussed on Java knowledge sharing and training. We are looking for people to add Java related content to the website and I was wondering if you&#8217;re interested in doing so. You can create an account on <a href=\"http://www.jtraining.com\" rel=\"nofollow ugc\">http://www.jtraining.com</a> and you will automatically get a Blog account which you can use. We have only recently started and plan to promote JTraining over the next few weeks, so it should get quite some attention (which is always good).</p>\n<p>Comments/suggestions are always welcome. Hope to see you there!</p>\n<p>Kind regards, cheers,<br />\nJTraining</p>\n"
+    },
+    "link": "http://geekraj.com/about/comment-page-1/#comment-98",
+    "status": "approved",
+    "type": "comment",
+    "author_avatar_urls": {
+      "24": "http://2.gravatar.com/avatar/59298e8a58abb8e32b67d39fa2750074?s=24&d=wavatar&r=g",
+      "48": "http://2.gravatar.com/avatar/59298e8a58abb8e32b67d39fa2750074?s=48&d=wavatar&r=g",
+      "96": "http://2.gravatar.com/avatar/59298e8a58abb8e32b67d39fa2750074?s=96&d=wavatar&r=g"
+    },
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "http://geekraj.com/wp-json/wp/v2/comments/98"
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://geekraj.com/wp-json/wp/v2/comments"
+        }
+      ],
+      "up": [
+        {
+          "embeddable": true,
+          "post_type": "page",
+          "href": "http://geekraj.com/wp-json/wp/v2/pages/2"
+        }
+      ]
+    }
+  },
+  {
+    "id": 97,
+    "post": 278,
+    "parent": 0,
+    "author": 0,
+    "author_name": "Srihari (srihri)",
+    "author_url": "http://beingsrihari.blogspot.com/",
+    "date": "2009-07-21T13:45:50",
+    "date_gmt": "2009-07-21T08:15:50",
+    "content": {
+      "rendered": "<p>Nice one!</p>\n"
+    },
+    "link": "http://geekraj.com/project-euler-widget/comment-page-1/#comment-97",
+    "status": "approved",
+    "type": "comment",
+    "author_avatar_urls": {
+      "24": "http://0.gravatar.com/avatar/ce5ad9e140cc41e594f2f314ba301136?s=24&d=wavatar&r=g",
+      "48": "http://0.gravatar.com/avatar/ce5ad9e140cc41e594f2f314ba301136?s=48&d=wavatar&r=g",
+      "96": "http://0.gravatar.com/avatar/ce5ad9e140cc41e594f2f314ba301136?s=96&d=wavatar&r=g"
+    },
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "http://geekraj.com/wp-json/wp/v2/comments/97"
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://geekraj.com/wp-json/wp/v2/comments"
+        }
+      ],
+      "up": [
+        {
+          "embeddable": true,
+          "post_type": "post",
+          "href": "http://geekraj.com/wp-json/wp/v2/posts/278"
+        }
+      ]
+    }
+  },
+  {
+    "id": 96,
+    "post": 331,
+    "parent": 0,
+    "author": 0,
+    "author_name": "Uma Kandaswamy",
+    "author_url": "http://sigarangalainokki.wordpress.com",
+    "date": "2009-07-12T20:33:09",
+    "date_gmt": "2009-07-12T15:03:09",
+    "content": {
+      "rendered": "<p>Belated Birthday wishes to little Kevin :) Very nice pics..Kevin looks smart all dressed up&#8230;looks like kevin has only girlfriends..already :)way to go..</p>\n"
+    },
+    "link": "http://geekraj.com/kevins-birthday/comment-page-1/#comment-96",
+    "status": "approved",
+    "type": "comment",
+    "author_avatar_urls": {
+      "24": "http://0.gravatar.com/avatar/643a8dfe7bc2aa92e1ce04b910c5a5f0?s=24&d=wavatar&r=g",
+      "48": "http://0.gravatar.com/avatar/643a8dfe7bc2aa92e1ce04b910c5a5f0?s=48&d=wavatar&r=g",
+      "96": "http://0.gravatar.com/avatar/643a8dfe7bc2aa92e1ce04b910c5a5f0?s=96&d=wavatar&r=g"
+    },
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "http://geekraj.com/wp-json/wp/v2/comments/96"
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://geekraj.com/wp-json/wp/v2/comments"
+        }
+      ],
+      "up": [
+        {
+          "embeddable": true,
+          "post_type": "post",
+          "href": "http://geekraj.com/wp-json/wp/v2/posts/331"
+        }
+      ]
+    }
+  },
+  {
+    "id": 82,
+    "post": 115,
+    "parent": 0,
+    "author": 1,
+    "author_name": "Raj Madhuram",
+    "author_url": "http://",
+    "date": "2009-06-19T17:33:26",
+    "date_gmt": "2009-06-19T12:03:26",
+    "content": {
+      "rendered": "<p>I&#8217;m glad it was of help to you Trey! Thanks for letting me know.</p>\n"
+    },
+    "link": "http://geekraj.com/making-eclipse-ignore-svn-entries-in-the-build-output/comment-page-1/#comment-82",
+    "status": "approved",
+    "type": "comment",
+    "author_avatar_urls": {
+      "24": "http://1.gravatar.com/avatar/4b16da4657265c7367dc6fcc7876ac87?s=24&d=wavatar&r=g",
+      "48": "http://1.gravatar.com/avatar/4b16da4657265c7367dc6fcc7876ac87?s=48&d=wavatar&r=g",
+      "96": "http://1.gravatar.com/avatar/4b16da4657265c7367dc6fcc7876ac87?s=96&d=wavatar&r=g"
+    },
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "http://geekraj.com/wp-json/wp/v2/comments/82"
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://geekraj.com/wp-json/wp/v2/comments"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "http://geekraj.com/wp-json/wp/v2/users/1"
+        }
+      ],
+      "up": [
+        {
+          "embeddable": true,
+          "post_type": "post",
+          "href": "http://geekraj.com/wp-json/wp/v2/posts/115"
+        }
+      ]
+    }
+  },
+  {
+    "id": 81,
+    "post": 115,
+    "parent": 0,
+    "author": 0,
+    "author_name": "Trey",
+    "author_url": "",
+    "date": "2009-06-04T18:29:06",
+    "date_gmt": "2009-06-04T12:59:06",
+    "content": {
+      "rendered": "<p>Awesome. I&#8217;ve been dealing with this Eclipse-SVN integration headache for some time now. A co-worker suggested re-importing the trunk for the project. He cited something about an esoteric Eclipse bug that picked up on the history of the &#8216;bin&#8217; directory ever being checked in.<br />\nI was dreading losing the history in the hopes of eliminating the headache. I&#8217;m elated to learn of a more elegant solution.</p>\n"
+    },
+    "link": "http://geekraj.com/making-eclipse-ignore-svn-entries-in-the-build-output/comment-page-1/#comment-81",
+    "status": "approved",
+    "type": "comment",
+    "author_avatar_urls": {
+      "24": "http://1.gravatar.com/avatar/4856c76656c20e49a55abb8b3b24bcab?s=24&d=wavatar&r=g",
+      "48": "http://1.gravatar.com/avatar/4856c76656c20e49a55abb8b3b24bcab?s=48&d=wavatar&r=g",
+      "96": "http://1.gravatar.com/avatar/4856c76656c20e49a55abb8b3b24bcab?s=96&d=wavatar&r=g"
+    },
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "http://geekraj.com/wp-json/wp/v2/comments/81"
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://geekraj.com/wp-json/wp/v2/comments"
+        }
+      ],
+      "up": [
+        {
+          "embeddable": true,
+          "post_type": "post",
+          "href": "http://geekraj.com/wp-json/wp/v2/posts/115"
+        }
+      ]
+    }
+  },
+  {
+    "id": 78,
+    "post": 319,
+    "parent": 0,
+    "author": 0,
+    "author_name": "abirami",
+    "author_url": "http://abi-passion.blogspot.com",
+    "date": "2009-05-14T13:52:48",
+    "date_gmt": "2009-05-14T08:22:48",
+    "content": {
+      "rendered": "<p>Interesting toy and pictures Raj! You are damn good with the SLR&#8230; Kalvin too looks like a grown up now&#8230; Having a nice time with them eh?! Meet you sometime :)</p>\n"
+    },
+    "link": "http://geekraj.com/robotic-spider-and-jenga-fun/comment-page-1/#comment-78",
+    "status": "approved",
+    "type": "comment",
+    "author_avatar_urls": {
+      "24": "http://2.gravatar.com/avatar/eadfe40f6cb83323d9358806928ad36b?s=24&d=wavatar&r=g",
+      "48": "http://2.gravatar.com/avatar/eadfe40f6cb83323d9358806928ad36b?s=48&d=wavatar&r=g",
+      "96": "http://2.gravatar.com/avatar/eadfe40f6cb83323d9358806928ad36b?s=96&d=wavatar&r=g"
+    },
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "http://geekraj.com/wp-json/wp/v2/comments/78"
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://geekraj.com/wp-json/wp/v2/comments"
+        }
+      ],
+      "up": [
+        {
+          "embeddable": true,
+          "post_type": "post",
+          "href": "http://geekraj.com/wp-json/wp/v2/posts/319"
+        }
+      ]
+    }
+  },
+  {
+    "id": 58,
+    "post": 319,
+    "parent": 0,
+    "author": 0,
+    "author_name": "Uma Kandaswamy",
+    "author_url": "http://sigarangalainokki.wordpress.com",
+    "date": "2009-04-22T18:23:09",
+    "date_gmt": "2009-04-23T01:23:09",
+    "content": {
+      "rendered": "<p>Leaning tower of Jenga is pretty good capture of action. Cool pics and comments.</p>\n"
+    },
+    "link": "http://geekraj.com/robotic-spider-and-jenga-fun/comment-page-1/#comment-58",
+    "status": "approved",
+    "type": "comment",
+    "author_avatar_urls": {
+      "24": "http://0.gravatar.com/avatar/643a8dfe7bc2aa92e1ce04b910c5a5f0?s=24&d=wavatar&r=g",
+      "48": "http://0.gravatar.com/avatar/643a8dfe7bc2aa92e1ce04b910c5a5f0?s=48&d=wavatar&r=g",
+      "96": "http://0.gravatar.com/avatar/643a8dfe7bc2aa92e1ce04b910c5a5f0?s=96&d=wavatar&r=g"
+    },
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "http://geekraj.com/wp-json/wp/v2/comments/58"
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://geekraj.com/wp-json/wp/v2/comments"
+        }
+      ],
+      "up": [
+        {
+          "embeddable": true,
+          "post_type": "post",
+          "href": "http://geekraj.com/wp-json/wp/v2/posts/319"
+        }
+      ]
+    }
+  },
+  {
+    "id": 57,
+    "post": 278,
+    "parent": 0,
+    "author": 0,
+    "author_name": "Uma Kandaswamy",
+    "author_url": "http://sigarangalainokki.wordpress.com",
+    "date": "2009-03-31T18:07:17",
+    "date_gmt": "2009-04-01T01:07:17",
+    "content": {
+      "rendered": "<p>Wow&#8230; The sample questions on project Euler looks like msft interview questions to me :) only more tougher. I will see if i can solve at least 1 to begin with.</p>\n"
+    },
+    "link": "http://geekraj.com/project-euler-widget/comment-page-1/#comment-57",
+    "status": "approved",
+    "type": "comment",
+    "author_avatar_urls": {
+      "24": "http://0.gravatar.com/avatar/643a8dfe7bc2aa92e1ce04b910c5a5f0?s=24&d=wavatar&r=g",
+      "48": "http://0.gravatar.com/avatar/643a8dfe7bc2aa92e1ce04b910c5a5f0?s=48&d=wavatar&r=g",
+      "96": "http://0.gravatar.com/avatar/643a8dfe7bc2aa92e1ce04b910c5a5f0?s=96&d=wavatar&r=g"
+    },
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "http://geekraj.com/wp-json/wp/v2/comments/57"
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://geekraj.com/wp-json/wp/v2/comments"
+        }
+      ],
+      "up": [
+        {
+          "embeddable": true,
+          "post_type": "post",
+          "href": "http://geekraj.com/wp-json/wp/v2/posts/278"
+        }
+      ]
+    }
+  },
+  {
+    "id": 56,
+    "post": 197,
+    "parent": 0,
+    "author": 0,
+    "author_name": "Uma Kandaswamy",
+    "author_url": "",
+    "date": "2009-03-30T19:31:53",
+    "date_gmt": "2009-03-31T02:31:53",
+    "content": {
+      "rendered": "<p>Thanks to you for introducing me to anagrams. This is really very creative :)</p>\n"
+    },
+    "link": "http://geekraj.com/presidential-anagrams/comment-page-1/#comment-56",
+    "status": "approved",
+    "type": "comment",
+    "author_avatar_urls": {
+      "24": "http://0.gravatar.com/avatar/643a8dfe7bc2aa92e1ce04b910c5a5f0?s=24&d=wavatar&r=g",
+      "48": "http://0.gravatar.com/avatar/643a8dfe7bc2aa92e1ce04b910c5a5f0?s=48&d=wavatar&r=g",
+      "96": "http://0.gravatar.com/avatar/643a8dfe7bc2aa92e1ce04b910c5a5f0?s=96&d=wavatar&r=g"
+    },
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "http://geekraj.com/wp-json/wp/v2/comments/56"
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://geekraj.com/wp-json/wp/v2/comments"
+        }
+      ],
+      "up": [
+        {
+          "embeddable": true,
+          "post_type": "post",
+          "href": "http://geekraj.com/wp-json/wp/v2/posts/197"
+        }
+      ]
+    }
+  },
+  {
+    "id": 43,
+    "post": 197,
+    "parent": 0,
+    "author": 1,
+    "author_name": "Raj Madhuram",
+    "author_url": "http://",
+    "date": "2009-03-29T11:52:50",
+    "date_gmt": "2009-03-29T18:52:50",
+    "content": {
+      "rendered": "<p>Thanks for the comments Uma! Never mind about the formation :) Mango Jam is nice.. yum.</p>\n<p>In the presidential anagrams, I especially liked the &#8220;Bush Karma Abase Icon&#8221; for Obama. It looks like he is indeed abasing (reversing rather) some of Bush&#8217;s karmas, like relaxing restrictions in stem cell research..</p>\n"
+    },
+    "link": "http://geekraj.com/presidential-anagrams/comment-page-1/#comment-43",
+    "status": "approved",
+    "type": "comment",
+    "author_avatar_urls": {
+      "24": "http://1.gravatar.com/avatar/4b16da4657265c7367dc6fcc7876ac87?s=24&d=wavatar&r=g",
+      "48": "http://1.gravatar.com/avatar/4b16da4657265c7367dc6fcc7876ac87?s=48&d=wavatar&r=g",
+      "96": "http://1.gravatar.com/avatar/4b16da4657265c7367dc6fcc7876ac87?s=96&d=wavatar&r=g"
+    },
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "http://geekraj.com/wp-json/wp/v2/comments/43"
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://geekraj.com/wp-json/wp/v2/comments"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "http://geekraj.com/wp-json/wp/v2/users/1"
+        }
+      ],
+      "up": [
+        {
+          "embeddable": true,
+          "post_type": "post",
+          "href": "http://geekraj.com/wp-json/wp/v2/posts/197"
+        }
+      ]
+    }
+  },
+  {
+    "id": 42,
+    "post": 197,
+    "parent": 0,
+    "author": 0,
+    "author_name": "Uma Kandaswamy",
+    "author_url": "",
+    "date": "2009-03-28T07:26:22",
+    "date_gmt": "2009-03-28T14:26:22",
+    "content": {
+      "rendered": "<p>Doh ! thatz not even anagram by counts..just used the words from the anagram list to convey something i guess&#8230;me and my brains :)</p>\n"
+    },
+    "link": "http://geekraj.com/presidential-anagrams/comment-page-1/#comment-42",
+    "status": "approved",
+    "type": "comment",
+    "author_avatar_urls": {
+      "24": "http://0.gravatar.com/avatar/643a8dfe7bc2aa92e1ce04b910c5a5f0?s=24&d=wavatar&r=g",
+      "48": "http://0.gravatar.com/avatar/643a8dfe7bc2aa92e1ce04b910c5a5f0?s=48&d=wavatar&r=g",
+      "96": "http://0.gravatar.com/avatar/643a8dfe7bc2aa92e1ce04b910c5a5f0?s=96&d=wavatar&r=g"
+    },
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "http://geekraj.com/wp-json/wp/v2/comments/42"
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://geekraj.com/wp-json/wp/v2/comments"
+        }
+      ],
+      "up": [
+        {
+          "embeddable": true,
+          "post_type": "post",
+          "href": "http://geekraj.com/wp-json/wp/v2/posts/197"
+        }
+      ]
+    }
+  },
+  {
+    "id": 41,
+    "post": 197,
+    "parent": 0,
+    "author": 0,
+    "author_name": "Uma Kandaswamy",
+    "author_url": "",
+    "date": "2009-03-28T06:14:04",
+    "date_gmt": "2009-03-28T13:14:04",
+    "content": {
+      "rendered": "<p>From the anagrams of &#8220;Anagrams for geekraj&#8221;</p>\n<p>Managers Manager<br />\nGame maker<br />\nGone far<br />\nFrom Rank<br />\nGenome engram<br />\nRaja, rare<br />\nFrank, Ranger<br />\nRename<br />\nGeek<br />\nFor<br />\nName<br />\nMean<br />\nFreak<br />\nMango Jam.. From a fan ..Amen :)</p>\n<p>(PS. It is up to you to publish this in your blog, this is just my opinion..just passing on my thought as a end user)</p>\n"
+    },
+    "link": "http://geekraj.com/presidential-anagrams/comment-page-1/#comment-41",
+    "status": "approved",
+    "type": "comment",
+    "author_avatar_urls": {
+      "24": "http://0.gravatar.com/avatar/643a8dfe7bc2aa92e1ce04b910c5a5f0?s=24&d=wavatar&r=g",
+      "48": "http://0.gravatar.com/avatar/643a8dfe7bc2aa92e1ce04b910c5a5f0?s=48&d=wavatar&r=g",
+      "96": "http://0.gravatar.com/avatar/643a8dfe7bc2aa92e1ce04b910c5a5f0?s=96&d=wavatar&r=g"
+    },
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "http://geekraj.com/wp-json/wp/v2/comments/41"
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://geekraj.com/wp-json/wp/v2/comments"
+        }
+      ],
+      "up": [
+        {
+          "embeddable": true,
+          "post_type": "post",
+          "href": "http://geekraj.com/wp-json/wp/v2/posts/197"
+        }
+      ]
+    }
+  },
+  {
+    "id": 40,
+    "post": 142,
+    "parent": 0,
+    "author": 0,
+    "author_name": "Uma Kandaswamy",
+    "author_url": "",
+    "date": "2009-03-27T09:54:19",
+    "date_gmt": "2009-03-27T16:54:19",
+    "content": {
+      "rendered": "<p>Brilliant. If programmers are as good as you are, i see the need for testing team decreasing, but then the probablity of me loosing my job increases as well :) Never mind i can do something else using my artist skills, &#8220;Bravo Rajkumar&#8221;.</p>\n"
+    },
+    "link": "http://geekraj.com/how-to-test-functions-that-are-not-predictable/comment-page-1/#comment-40",
+    "status": "approved",
+    "type": "comment",
+    "author_avatar_urls": {
+      "24": "http://0.gravatar.com/avatar/643a8dfe7bc2aa92e1ce04b910c5a5f0?s=24&d=wavatar&r=g",
+      "48": "http://0.gravatar.com/avatar/643a8dfe7bc2aa92e1ce04b910c5a5f0?s=48&d=wavatar&r=g",
+      "96": "http://0.gravatar.com/avatar/643a8dfe7bc2aa92e1ce04b910c5a5f0?s=96&d=wavatar&r=g"
+    },
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "http://geekraj.com/wp-json/wp/v2/comments/40"
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://geekraj.com/wp-json/wp/v2/comments"
+        }
+      ],
+      "up": [
+        {
+          "embeddable": true,
+          "post_type": "post",
+          "href": "http://geekraj.com/wp-json/wp/v2/posts/142"
+        }
+      ]
+    }
+  },
+  {
+    "id": 39,
+    "post": 234,
+    "parent": 0,
+    "author": 1,
+    "author_name": "Raj Madhuram",
+    "author_url": "http://",
+    "date": "2009-03-27T04:31:24",
+    "date_gmt": "2009-03-27T11:31:24",
+    "content": {
+      "rendered": "<p>Thanks Padmanabhan for trying it out! I&#8217;m glad you liked it. We are developing a few mobile games in our company </p>\n<p><a href=\"http://www.impigertech.com/index.php?option=com_content&#038;view=article&#038;id=53&#038;Itemid=104\" rel=\"nofollow ugc\">http://www.impigertech.com/index.php?option=com_content&#038;view=article&#038;id=53&#038;Itemid=104</a></p>\n<p>I personally have developed a few games as hobby, but haven&#8217;t released them to the public yet. I don&#8217;t know where some of them are :). You can find some very old ones I released some 10 years back here:</p>\n<p><a href=\"http://madhuram.tripod.com/tclpage.html\" rel=\"nofollow ugc\">http://madhuram.tripod.com/tclpage.html</a></p>\n<p>These were done using Tcl/Tk and you will need to install a plugin to run them on your browser.</p>\n"
+    },
+    "link": "http://geekraj.com/fractal-christmas-tree-on-your-mobile-my-christmas-gift-to-you/comment-page-1/#comment-39",
+    "status": "approved",
+    "type": "comment",
+    "author_avatar_urls": {
+      "24": "http://1.gravatar.com/avatar/4b16da4657265c7367dc6fcc7876ac87?s=24&d=wavatar&r=g",
+      "48": "http://1.gravatar.com/avatar/4b16da4657265c7367dc6fcc7876ac87?s=48&d=wavatar&r=g",
+      "96": "http://1.gravatar.com/avatar/4b16da4657265c7367dc6fcc7876ac87?s=96&d=wavatar&r=g"
+    },
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "http://geekraj.com/wp-json/wp/v2/comments/39"
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://geekraj.com/wp-json/wp/v2/comments"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "http://geekraj.com/wp-json/wp/v2/users/1"
+        }
+      ],
+      "up": [
+        {
+          "embeddable": true,
+          "post_type": "post",
+          "href": "http://geekraj.com/wp-json/wp/v2/posts/234"
+        }
+      ]
+    }
+  },
+  {
+    "id": 38,
+    "post": 234,
+    "parent": 0,
+    "author": 0,
+    "author_name": "Padman",
+    "author_url": "",
+    "date": "2009-03-27T03:21:45",
+    "date_gmt": "2009-03-27T10:21:45",
+    "content": {
+      "rendered": "<p>Have used this in my mobile. It is very good. Let me know if you have some games that you have done. My son will be interested. :-)</p>\n"
+    },
+    "link": "http://geekraj.com/fractal-christmas-tree-on-your-mobile-my-christmas-gift-to-you/comment-page-1/#comment-38",
+    "status": "approved",
+    "type": "comment",
+    "author_avatar_urls": {
+      "24": "http://0.gravatar.com/avatar/cf18b320d4034ad0efe56f1333d5d077?s=24&d=wavatar&r=g",
+      "48": "http://0.gravatar.com/avatar/cf18b320d4034ad0efe56f1333d5d077?s=48&d=wavatar&r=g",
+      "96": "http://0.gravatar.com/avatar/cf18b320d4034ad0efe56f1333d5d077?s=96&d=wavatar&r=g"
+    },
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "http://geekraj.com/wp-json/wp/v2/comments/38"
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://geekraj.com/wp-json/wp/v2/comments"
+        }
+      ],
+      "up": [
+        {
+          "embeddable": true,
+          "post_type": "post",
+          "href": "http://geekraj.com/wp-json/wp/v2/posts/234"
+        }
+      ]
+    }
+  },
+  {
+    "id": 19,
+    "post": 53,
+    "parent": 0,
+    "author": 0,
+    "author_name": "suntosh",
+    "author_url": "",
+    "date": "2008-06-25T07:04:00",
+    "date_gmt": "2008-06-25T07:04:00",
+    "content": {
+      "rendered": "<p>Ignore my previous comment. Your updates explains the reasoning :)</p>\n"
+    },
+    "link": "http://geekraj.com/string-comparison-gotcha-in-php/comment-page-1/#comment-19",
+    "status": "approved",
+    "type": "comment",
+    "author_avatar_urls": {
+      "24": "http://1.gravatar.com/avatar/?s=24&d=wavatar&r=g",
+      "48": "http://0.gravatar.com/avatar/?s=48&d=wavatar&r=g",
+      "96": "http://0.gravatar.com/avatar/?s=96&d=wavatar&r=g"
+    },
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "http://geekraj.com/wp-json/wp/v2/comments/19"
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://geekraj.com/wp-json/wp/v2/comments"
+        }
+      ],
+      "up": [
+        {
+          "embeddable": true,
+          "post_type": "post",
+          "href": "http://geekraj.com/wp-json/wp/v2/posts/53"
+        }
+      ]
+    }
+  },
+  {
+    "id": 18,
+    "post": 53,
+    "parent": 0,
+    "author": 0,
+    "author_name": "suntosh",
+    "author_url": "",
+    "date": "2008-06-25T07:00:00",
+    "date_gmt": "2008-06-25T07:00:00",
+    "content": {
+      "rendered": "<p>Good catch raj. Have you reported this as a bug at <a href=\"http://bugs.php.net/report.php\" rel=\"nofollow ugc\">http://bugs.php.net/report.php</a>. If not you could.</p>\n"
+    },
+    "link": "http://geekraj.com/string-comparison-gotcha-in-php/comment-page-1/#comment-18",
+    "status": "approved",
+    "type": "comment",
+    "author_avatar_urls": {
+      "24": "http://1.gravatar.com/avatar/?s=24&d=wavatar&r=g",
+      "48": "http://1.gravatar.com/avatar/?s=48&d=wavatar&r=g",
+      "96": "http://2.gravatar.com/avatar/?s=96&d=wavatar&r=g"
+    },
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "http://geekraj.com/wp-json/wp/v2/comments/18"
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://geekraj.com/wp-json/wp/v2/comments"
+        }
+      ],
+      "up": [
+        {
+          "embeddable": true,
+          "post_type": "post",
+          "href": "http://geekraj.com/wp-json/wp/v2/posts/53"
+        }
+      ]
+    }
+  },
+  {
+    "id": 30,
+    "post": 89,
+    "parent": 0,
+    "author": 0,
+    "author_name": "",
+    "author_url": "",
+    "date": "2008-06-06T20:51:56",
+    "date_gmt": "2008-06-06T20:51:56",
+    "content": {
+      "rendered": "<p>Hi,</p>\n<p>This post is quite old now, but I&#8217;m struggling with castor and my RCP application, so I&#8217;d be glad to see how you successfuly managed to make them work together</p>\n<p>My email is<br />\n<a href=\"mailto:frederic.gagnepain@rbc.com\">frederic.gagnepain@rbc.com</a></p>\n<p>Thanks in advance.</p>\n"
+    },
+    "link": "http://geekraj.com/switching_out_menubar_part_2/comment-page-1/#comment-30",
+    "status": "approved",
+    "type": "comment",
+    "author_avatar_urls": {
+      "24": "http://0.gravatar.com/avatar/?s=24&d=wavatar&r=g",
+      "48": "http://2.gravatar.com/avatar/?s=48&d=wavatar&r=g",
+      "96": "http://2.gravatar.com/avatar/?s=96&d=wavatar&r=g"
+    },
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "http://geekraj.com/wp-json/wp/v2/comments/30"
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://geekraj.com/wp-json/wp/v2/comments"
+        }
+      ],
+      "up": [
+        {
+          "embeddable": true,
+          "post_type": "post",
+          "href": "http://geekraj.com/wp-json/wp/v2/posts/89"
+        }
+      ]
+    }
+  },
+  {
+    "id": 17,
+    "post": 51,
+    "parent": 0,
+    "author": 0,
+    "author_name": "Ganeshji Marwaha",
+    "author_url": "",
+    "date": "2008-06-03T09:55:00",
+    "date_gmt": "2008-06-03T09:55:00",
+    "content": {
+      "rendered": "<p>Thanks Raj, for your kind words about <a href=\"http://www.nboomi.com\" rel=\"nofollow ugc\">http://www.nboomi.com</a>. I assure you that we will look into the Firefox memory usage asap.</p>\n"
+    },
+    "link": "http://geekraj.com/aws-meetup-chennai/comment-page-1/#comment-17",
+    "status": "approved",
+    "type": "comment",
+    "author_avatar_urls": {
+      "24": "http://2.gravatar.com/avatar/?s=24&d=wavatar&r=g",
+      "48": "http://1.gravatar.com/avatar/?s=48&d=wavatar&r=g",
+      "96": "http://1.gravatar.com/avatar/?s=96&d=wavatar&r=g"
+    },
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "http://geekraj.com/wp-json/wp/v2/comments/17"
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://geekraj.com/wp-json/wp/v2/comments"
+        }
+      ],
+      "up": [
+        {
+          "embeddable": true,
+          "post_type": "post",
+          "href": "http://geekraj.com/wp-json/wp/v2/posts/51"
+        }
+      ]
+    }
+  },
+  {
+    "id": 16,
+    "post": 41,
+    "parent": 0,
+    "author": 0,
+    "author_name": "Anonymous",
+    "author_url": "",
+    "date": "2008-03-10T22:17:00",
+    "date_gmt": "2008-03-10T22:17:00",
+    "content": {
+      "rendered": "<p>I am surprised that you are managing to do this inspite of your &#8216;busy&#8217; schedule. &#8211; Priya :-)</p>\n"
+    },
+    "link": "http://geekraj.com/im-learning-to-play-keyboard/comment-page-1/#comment-16",
+    "status": "approved",
+    "type": "comment",
+    "author_avatar_urls": {
+      "24": "http://1.gravatar.com/avatar/?s=24&d=wavatar&r=g",
+      "48": "http://1.gravatar.com/avatar/?s=48&d=wavatar&r=g",
+      "96": "http://2.gravatar.com/avatar/?s=96&d=wavatar&r=g"
+    },
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "http://geekraj.com/wp-json/wp/v2/comments/16"
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://geekraj.com/wp-json/wp/v2/comments"
+        }
+      ],
+      "up": [
+        {
+          "embeddable": true,
+          "post_type": "post",
+          "href": "http://geekraj.com/wp-json/wp/v2/posts/41"
+        }
+      ]
+    }
+  },
+  {
+    "id": 14,
+    "post": 35,
+    "parent": 0,
+    "author": 0,
+    "author_name": "Raj Madhuram",
+    "author_url": "",
+    "date": "2007-12-29T11:33:00",
+    "date_gmt": "2007-12-29T11:33:00",
+    "content": {
+      "rendered": "<p>Thanks Susanta!</p>\n"
+    },
+    "link": "http://geekraj.com/the-changing-face-of-chennai/comment-page-1/#comment-14",
+    "status": "approved",
+    "type": "comment",
+    "author_avatar_urls": {
+      "24": "http://2.gravatar.com/avatar/?s=24&d=wavatar&r=g",
+      "48": "http://1.gravatar.com/avatar/?s=48&d=wavatar&r=g",
+      "96": "http://2.gravatar.com/avatar/?s=96&d=wavatar&r=g"
+    },
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "http://geekraj.com/wp-json/wp/v2/comments/14"
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://geekraj.com/wp-json/wp/v2/comments"
+        }
+      ],
+      "up": [
+        {
+          "embeddable": true,
+          "post_type": "post",
+          "href": "http://geekraj.com/wp-json/wp/v2/posts/35"
+        }
+      ]
+    }
+  },
+  {
+    "id": 13,
+    "post": 35,
+    "parent": 0,
+    "author": 0,
+    "author_name": "Susanta Barman",
+    "author_url": "",
+    "date": "2007-12-24T18:57:00",
+    "date_gmt": "2007-12-24T18:57:00",
+    "content": {
+      "rendered": "<p>nice post. thank you</p>\n"
+    },
+    "link": "http://geekraj.com/the-changing-face-of-chennai/comment-page-1/#comment-13",
+    "status": "approved",
+    "type": "comment",
+    "author_avatar_urls": {
+      "24": "http://2.gravatar.com/avatar/?s=24&d=wavatar&r=g",
+      "48": "http://0.gravatar.com/avatar/?s=48&d=wavatar&r=g",
+      "96": "http://1.gravatar.com/avatar/?s=96&d=wavatar&r=g"
+    },
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "http://geekraj.com/wp-json/wp/v2/comments/13"
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://geekraj.com/wp-json/wp/v2/comments"
+        }
+      ],
+      "up": [
+        {
+          "embeddable": true,
+          "post_type": "post",
+          "href": "http://geekraj.com/wp-json/wp/v2/posts/35"
+        }
+      ]
+    }
+  },
+  {
+    "id": 15,
+    "post": 36,
+    "parent": 0,
+    "author": 0,
+    "author_name": "Gautam",
+    "author_url": "",
+    "date": "2007-11-20T13:35:00",
+    "date_gmt": "2007-11-20T13:35:00",
+    "content": {
+      "rendered": "<p>Called EKA (the Sanskrit name for number one), the supercomputer built at the CRL facility at Pune, India, marks a milestone in the Tata group’s effort to build an indigenous high performance computing solution. CRL built the supercomputer facility using dense data centre layout and novel network routing and parallel processing library technologies developed by its scientists.</p>\n<p>EKA uses nearly 1800 computing nodes and has a peak performance of 170 Teraflops (TFlops or Trillion Floating Point Operations per Second) and a sustained performance of 120 Teraflops based on the LINPACK benchmarks which are used by the world-wide community to rank supercomputers based on performance.</p>\n<p>EKA, the CRL supercomputer follows a near-circular layout of the data centre unlike the traditional Hot Aisle &#038; Cold Aisle rows. This near-circular layout enables the building of densely packed supercomputers and this is the first time this architecture has been tried out on this scale.</p>\n<p>&#8220;EKA&#8221; can be used in various fields such as automotive engineering (cross simulation), drug discovery, and nanotechnology.</p>\n<p>The CRL supercomputer has been built using CLOS Architecture with off-the-shelf servers and Infiniband Interconnect technologies with Linux as the operating system. This is the first ever site in the world which has used the Dual Data Rate Infiniband with fibre- optic cable technology for superior performance.</p>\n<p>This CRL supercomputer includes nodes and racks built by Hewlett Packard (HP Cluster Platform 3000 BL460c system) which uses high speed quad-core Clovertown processors from Intel Corp. and Dual Data Rate Infiniband switches from Mellanox Corp. and Voltaire Corp. The CRL team has been actively supported by scientists and engineers at Tata Consultancy Services.</p>\n<p>In the near term, CRL is targeting and developing applications such as neural simulation, molecular simulation, computational fluid dynamics, crash simulation, and digital media animation and rendering. The longer term application areas would include financial modelling, seismic modelling, geophysical signal processing, weather prediction, medical imaging, nanotechnology, personalized drug discovery, real time rendering, and virtual worlds among others. CRL also intends to offer high performance and supercomputer system integration, research, applications and software services to its customers around the globe in the area of high performance computing.</p>\n<p>Meanwhile, in the Top 500 Supercomputer list, IBM&#8217;s BlueGene/L continues to figure as the world&#8217;s fastest supercomputer, while second place goes to IBM&#8217;s newer version of BlueGene/L called BlueGene/P.</p>\n<p>About CRL Limited</p>\n<p>Computational Research Laboratories was incorporated as a fully-owned subsidiary of Tata Sons with a mandate to achieve global leadership in the area of high-performance computing systems. With an elite team of 50 researchers and scientists covering application software, system architecture, system software and hardware design &#8212; CRL not only builds world-class and globally competitive supercomputer systems but also delivers application-level scalability.</p>\n"
+    },
+    "link": "http://geekraj.com/india-breaks-into-top-5-supercomputers-list/comment-page-1/#comment-15",
+    "status": "approved",
+    "type": "comment",
+    "author_avatar_urls": {
+      "24": "http://2.gravatar.com/avatar/?s=24&d=wavatar&r=g",
+      "48": "http://1.gravatar.com/avatar/?s=48&d=wavatar&r=g",
+      "96": "http://2.gravatar.com/avatar/?s=96&d=wavatar&r=g"
+    },
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "http://geekraj.com/wp-json/wp/v2/comments/15"
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://geekraj.com/wp-json/wp/v2/comments"
+        }
+      ],
+      "up": [
+        {
+          "embeddable": true,
+          "post_type": "post",
+          "href": "http://geekraj.com/wp-json/wp/v2/posts/36"
+        }
+      ]
+    }
+  },
+  {
+    "id": 12,
+    "post": 32,
+    "parent": 0,
+    "author": 0,
+    "author_name": "Raj Madhuram",
+    "author_url": "",
+    "date": "2007-09-17T06:18:00",
+    "date_gmt": "2007-09-17T06:18:00",
+    "content": {
+      "rendered": "<p>Very true Juhi! They are incredibly useful for everyday on-demand transportation. However, they are a really a pain when you are behind the wheels. </p>\n<p>I couldn&#8217;t get a better picture of the swordfish as I was driving at that time.</p>\n"
+    },
+    "link": "http://geekraj.com/travelling-swordfish/comment-page-1/#comment-12",
+    "status": "approved",
+    "type": "comment",
+    "author_avatar_urls": {
+      "24": "http://0.gravatar.com/avatar/?s=24&d=wavatar&r=g",
+      "48": "http://0.gravatar.com/avatar/?s=48&d=wavatar&r=g",
+      "96": "http://0.gravatar.com/avatar/?s=96&d=wavatar&r=g"
+    },
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "http://geekraj.com/wp-json/wp/v2/comments/12"
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://geekraj.com/wp-json/wp/v2/comments"
+        }
+      ],
+      "up": [
+        {
+          "embeddable": true,
+          "post_type": "post",
+          "href": "http://geekraj.com/wp-json/wp/v2/posts/32"
+        }
+      ]
+    }
+  },
+  {
+    "id": 11,
+    "post": 32,
+    "parent": 0,
+    "author": 0,
+    "author_name": "Juhi Varun Dhingra",
+    "author_url": "",
+    "date": "2007-09-14T18:29:00",
+    "date_gmt": "2007-09-14T18:29:00",
+    "content": {
+      "rendered": "<p>I guess Auto rickshaws are the soul of the Indian transportation system&#8230;.!</p>\n"
+    },
+    "link": "http://geekraj.com/travelling-swordfish/comment-page-1/#comment-11",
+    "status": "approved",
+    "type": "comment",
+    "author_avatar_urls": {
+      "24": "http://0.gravatar.com/avatar/?s=24&d=wavatar&r=g",
+      "48": "http://1.gravatar.com/avatar/?s=48&d=wavatar&r=g",
+      "96": "http://2.gravatar.com/avatar/?s=96&d=wavatar&r=g"
+    },
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "http://geekraj.com/wp-json/wp/v2/comments/11"
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://geekraj.com/wp-json/wp/v2/comments"
+        }
+      ],
+      "up": [
+        {
+          "embeddable": true,
+          "post_type": "post",
+          "href": "http://geekraj.com/wp-json/wp/v2/posts/32"
+        }
+      ]
+    }
+  },
+  {
+    "id": 34,
+    "post": 92,
+    "parent": 0,
+    "author": 0,
+    "author_name": "Raj",
+    "author_url": "",
+    "date": "2007-08-31T11:56:32",
+    "date_gmt": "2007-08-31T11:56:32",
+    "content": {
+      "rendered": "<p>Hi Mikel, unfortunately Kinzan is no more :(</p>\n"
+    },
+    "link": "http://geekraj.com/my_visit_to_javaone_04/comment-page-1/#comment-34",
+    "status": "approved",
+    "type": "comment",
+    "author_avatar_urls": {
+      "24": "http://1.gravatar.com/avatar/4b16da4657265c7367dc6fcc7876ac87?s=24&d=wavatar&r=g",
+      "48": "http://1.gravatar.com/avatar/4b16da4657265c7367dc6fcc7876ac87?s=48&d=wavatar&r=g",
+      "96": "http://1.gravatar.com/avatar/4b16da4657265c7367dc6fcc7876ac87?s=96&d=wavatar&r=g"
+    },
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "http://geekraj.com/wp-json/wp/v2/comments/34"
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://geekraj.com/wp-json/wp/v2/comments"
+        }
+      ],
+      "up": [
+        {
+          "embeddable": true,
+          "post_type": "post",
+          "href": "http://geekraj.com/wp-json/wp/v2/posts/92"
+        }
+      ]
+    }
+  },
+  {
+    "id": 10,
+    "post": 27,
+    "parent": 0,
+    "author": 0,
+    "author_name": "Raj Madhuram",
+    "author_url": "",
+    "date": "2007-08-30T17:48:00",
+    "date_gmt": "2007-08-30T17:48:00",
+    "content": {
+      "rendered": "<p><a href=\"http://www.humanmetrics.com/cgi-win/jungtype.htm\" rel=\"nofollow ugc\">http://www.humanmetrics.com/cgi-win/jungtype.htm</a></p>\n"
+    },
+    "link": "http://geekraj.com/im-infp/comment-page-1/#comment-10",
+    "status": "approved",
+    "type": "comment",
+    "author_avatar_urls": {
+      "24": "http://2.gravatar.com/avatar/?s=24&d=wavatar&r=g",
+      "48": "http://2.gravatar.com/avatar/?s=48&d=wavatar&r=g",
+      "96": "http://0.gravatar.com/avatar/?s=96&d=wavatar&r=g"
+    },
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "http://geekraj.com/wp-json/wp/v2/comments/10"
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://geekraj.com/wp-json/wp/v2/comments"
+        }
+      ],
+      "up": [
+        {
+          "embeddable": true,
+          "post_type": "post",
+          "href": "http://geekraj.com/wp-json/wp/v2/posts/27"
+        }
+      ]
+    }
+  },
+  {
+    "id": 9,
+    "post": 27,
+    "parent": 0,
+    "author": 0,
+    "author_name": "Krishnapadman",
+    "author_url": "",
+    "date": "2007-08-30T14:53:00",
+    "date_gmt": "2007-08-30T14:53:00",
+    "content": {
+      "rendered": "<p>Is it not Extrovert? is it extravert?</p>\n"
+    },
+    "link": "http://geekraj.com/im-infp/comment-page-1/#comment-9",
+    "status": "approved",
+    "type": "comment",
+    "author_avatar_urls": {
+      "24": "http://2.gravatar.com/avatar/?s=24&d=wavatar&r=g",
+      "48": "http://1.gravatar.com/avatar/?s=48&d=wavatar&r=g",
+      "96": "http://1.gravatar.com/avatar/?s=96&d=wavatar&r=g"
+    },
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "http://geekraj.com/wp-json/wp/v2/comments/9"
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://geekraj.com/wp-json/wp/v2/comments"
+        }
+      ],
+      "up": [
+        {
+          "embeddable": true,
+          "post_type": "post",
+          "href": "http://geekraj.com/wp-json/wp/v2/posts/27"
+        }
+      ]
+    }
+  },
+  {
+    "id": 6,
+    "post": 18,
+    "parent": 0,
+    "author": 0,
+    "author_name": "Raj Madhuram",
+    "author_url": "",
+    "date": "2007-07-24T14:20:00",
+    "date_gmt": "2007-07-24T14:20:00",
+    "content": {
+      "rendered": "<p>Hi Sarath! how are you doing man? Nice car you&#8217;ve got there! I&#8217;ve seen a Porsche here near Nanganallur, can you believe that? It was a Cayenne, and a white guy was driving that. Truly getting cosmopolitan!!</p>\n"
+    },
+    "link": "http://geekraj.com/oh-what-a-week/comment-page-1/#comment-6",
+    "status": "approved",
+    "type": "comment",
+    "author_avatar_urls": {
+      "24": "http://2.gravatar.com/avatar/?s=24&d=wavatar&r=g",
+      "48": "http://1.gravatar.com/avatar/?s=48&d=wavatar&r=g",
+      "96": "http://1.gravatar.com/avatar/?s=96&d=wavatar&r=g"
+    },
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "http://geekraj.com/wp-json/wp/v2/comments/6"
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://geekraj.com/wp-json/wp/v2/comments"
+        }
+      ],
+      "up": [
+        {
+          "embeddable": true,
+          "post_type": "post",
+          "href": "http://geekraj.com/wp-json/wp/v2/posts/18"
+        }
+      ]
+    }
+  },
+  {
+    "id": 5,
+    "post": 18,
+    "parent": 0,
+    "author": 0,
+    "author_name": "OVER-the-TOP",
+    "author_url": "",
+    "date": "2007-07-14T08:33:00",
+    "date_gmt": "2007-07-14T08:33:00",
+    "content": {
+      "rendered": "<p>Also, I have seen Porche&#8230;:)</p>\n"
+    },
+    "link": "http://geekraj.com/oh-what-a-week/comment-page-1/#comment-5",
+    "status": "approved",
+    "type": "comment",
+    "author_avatar_urls": {
+      "24": "http://2.gravatar.com/avatar/?s=24&d=wavatar&r=g",
+      "48": "http://1.gravatar.com/avatar/?s=48&d=wavatar&r=g",
+      "96": "http://2.gravatar.com/avatar/?s=96&d=wavatar&r=g"
+    },
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "http://geekraj.com/wp-json/wp/v2/comments/5"
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://geekraj.com/wp-json/wp/v2/comments"
+        }
+      ],
+      "up": [
+        {
+          "embeddable": true,
+          "post_type": "post",
+          "href": "http://geekraj.com/wp-json/wp/v2/posts/18"
+        }
+      ]
+    }
+  },
+  {
+    "id": 4,
+    "post": 18,
+    "parent": 0,
+    "author": 0,
+    "author_name": "OVER-the-TOP",
+    "author_url": "",
+    "date": "2007-07-14T08:32:00",
+    "date_gmt": "2007-07-14T08:32:00",
+    "content": {
+      "rendered": "<p>Hi Raj, Sarath here :) I have seen the same machine at BTM 2nd stage walking towards a restaurant to have my dinner&#8230;But at that time I could not believe that it was Rolls..i thought some one stupidly spent lot of money in assembling a big one like Rolls..ha ha..</p>\n"
+    },
+    "link": "http://geekraj.com/oh-what-a-week/comment-page-1/#comment-4",
+    "status": "approved",
+    "type": "comment",
+    "author_avatar_urls": {
+      "24": "http://0.gravatar.com/avatar/?s=24&d=wavatar&r=g",
+      "48": "http://0.gravatar.com/avatar/?s=48&d=wavatar&r=g",
+      "96": "http://0.gravatar.com/avatar/?s=96&d=wavatar&r=g"
+    },
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "http://geekraj.com/wp-json/wp/v2/comments/4"
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://geekraj.com/wp-json/wp/v2/comments"
+        }
+      ],
+      "up": [
+        {
+          "embeddable": true,
+          "post_type": "post",
+          "href": "http://geekraj.com/wp-json/wp/v2/posts/18"
+        }
+      ]
+    }
+  },
+  {
+    "id": 3,
+    "post": 12,
+    "parent": 0,
+    "author": 0,
+    "author_name": "Raj Madhuram",
+    "author_url": "",
+    "date": "2007-07-06T14:39:00",
+    "date_gmt": "2007-07-06T14:39:00",
+    "content": {
+      "rendered": "<p>Hi,</p>\n<p>It was made by a Hong Kong based manufacturer called EACA. More info <a HREF=\"http://en.wikipedia.org/wiki/Color_Genie\" REL=\"nofollow\">here</a>.</p>\n"
+    },
+    "link": "http://geekraj.com/moving-to-blogger/comment-page-1/#comment-3",
+    "status": "approved",
+    "type": "comment",
+    "author_avatar_urls": {
+      "24": "http://0.gravatar.com/avatar/?s=24&d=wavatar&r=g",
+      "48": "http://2.gravatar.com/avatar/?s=48&d=wavatar&r=g",
+      "96": "http://1.gravatar.com/avatar/?s=96&d=wavatar&r=g"
+    },
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "http://geekraj.com/wp-json/wp/v2/comments/3"
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://geekraj.com/wp-json/wp/v2/comments"
+        }
+      ],
+      "up": [
+        {
+          "embeddable": true,
+          "post_type": "post",
+          "href": "http://geekraj.com/wp-json/wp/v2/posts/12"
+        }
+      ]
+    }
+  },
+  {
+    "id": 2,
+    "post": 12,
+    "parent": 0,
+    "author": 0,
+    "author_name": "iLL Man",
+    "author_url": "",
+    "date": "2007-07-02T23:20:00",
+    "date_gmt": "2007-07-02T23:20:00",
+    "content": {
+      "rendered": "<p>Who made the CG2000?  As you say, sounds like a fine little machine.  If only I still had my old c64&#8230;.</p>\n"
+    },
+    "link": "http://geekraj.com/moving-to-blogger/comment-page-1/#comment-2",
+    "status": "approved",
+    "type": "comment",
+    "author_avatar_urls": {
+      "24": "http://2.gravatar.com/avatar/?s=24&d=wavatar&r=g",
+      "48": "http://1.gravatar.com/avatar/?s=48&d=wavatar&r=g",
+      "96": "http://2.gravatar.com/avatar/?s=96&d=wavatar&r=g"
+    },
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "http://geekraj.com/wp-json/wp/v2/comments/2"
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://geekraj.com/wp-json/wp/v2/comments"
+        }
+      ],
+      "up": [
+        {
+          "embeddable": true,
+          "post_type": "post",
+          "href": "http://geekraj.com/wp-json/wp/v2/posts/12"
+        }
+      ]
+    }
+  },
+  {
+    "id": 33,
+    "post": 92,
+    "parent": 0,
+    "author": 0,
+    "author_name": "Mikel Iridoi Olaizola",
+    "author_url": "",
+    "date": "2007-02-22T18:30:35",
+    "date_gmt": "2007-02-22T18:30:35",
+    "content": {
+      "rendered": "<p>I&#8217;m a developer that had evaluated Kinzan Studio&#8217;s great software in 2004. I&#8217;m searching these MVC software but i can&#8217;t, anyone know where is it? <a href=\"http://www.kinzan.com\" rel=\"nofollow ugc\">http://www.kinzan.com</a> is not responding!</p>\n<p>Thanks!!</p>\n"
+    },
+    "link": "http://geekraj.com/my_visit_to_javaone_04/comment-page-1/#comment-33",
+    "status": "approved",
+    "type": "comment",
+    "author_avatar_urls": {
+      "24": "http://1.gravatar.com/avatar/a7d5035798c2af638f1c85753a61e240?s=24&d=wavatar&r=g",
+      "48": "http://1.gravatar.com/avatar/a7d5035798c2af638f1c85753a61e240?s=48&d=wavatar&r=g",
+      "96": "http://1.gravatar.com/avatar/a7d5035798c2af638f1c85753a61e240?s=96&d=wavatar&r=g"
+    },
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "http://geekraj.com/wp-json/wp/v2/comments/33"
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://geekraj.com/wp-json/wp/v2/comments"
+        }
+      ],
+      "up": [
+        {
+          "embeddable": true,
+          "post_type": "post",
+          "href": "http://geekraj.com/wp-json/wp/v2/posts/92"
+        }
+      ]
+    }
+  },
+  {
+    "id": 21,
+    "post": 69,
+    "parent": 0,
+    "author": 0,
+    "author_name": "Sarath",
+    "author_url": "",
+    "date": "2006-12-04T17:54:42",
+    "date_gmt": "2006-12-04T17:54:42",
+    "content": {
+      "rendered": "<p>Makes me to wonder whether Men in blue regrets or Man with the Laptop, for spending the whole day watching Blues&#8217; horrible performance on the ground&#8230; :) :)</p>\n"
+    },
+    "link": "http://geekraj.com/it_s_a_blue_blue/comment-page-1/#comment-21",
+    "status": "approved",
+    "type": "comment",
+    "author_avatar_urls": {
+      "24": "http://1.gravatar.com/avatar/ae6ec652f7fe7d1def0de51f3a21c3e3?s=24&d=wavatar&r=g",
+      "48": "http://1.gravatar.com/avatar/ae6ec652f7fe7d1def0de51f3a21c3e3?s=48&d=wavatar&r=g",
+      "96": "http://1.gravatar.com/avatar/ae6ec652f7fe7d1def0de51f3a21c3e3?s=96&d=wavatar&r=g"
+    },
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "http://geekraj.com/wp-json/wp/v2/comments/21"
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://geekraj.com/wp-json/wp/v2/comments"
+        }
+      ],
+      "up": [
+        {
+          "embeddable": true,
+          "post_type": "post",
+          "href": "http://geekraj.com/wp-json/wp/v2/posts/69"
+        }
+      ]
+    }
+  },
+  {
+    "id": 22,
+    "post": 71,
+    "parent": 0,
+    "author": 0,
+    "author_name": "raveman",
+    "author_url": "",
+    "date": "2006-10-11T16:36:40",
+    "date_gmt": "2006-10-11T16:36:40",
+    "content": {
+      "rendered": "<p>hehehe, funny stuff :D</p>\n"
+    },
+    "link": "http://geekraj.com/fun_with_google_code_search/comment-page-1/#comment-22",
+    "status": "approved",
+    "type": "comment",
+    "author_avatar_urls": {
+      "24": "http://1.gravatar.com/avatar/?s=24&d=wavatar&r=g",
+      "48": "http://1.gravatar.com/avatar/?s=48&d=wavatar&r=g",
+      "96": "http://1.gravatar.com/avatar/?s=96&d=wavatar&r=g"
+    },
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "http://geekraj.com/wp-json/wp/v2/comments/22"
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://geekraj.com/wp-json/wp/v2/comments"
+        }
+      ],
+      "up": [
+        {
+          "embeddable": true,
+          "post_type": "post",
+          "href": "http://geekraj.com/wp-json/wp/v2/posts/71"
+        }
+      ]
+    }
+  },
+  {
+    "id": 24,
+    "post": 75,
+    "parent": 0,
+    "author": 0,
+    "author_name": "David Ekholm",
+    "author_url": "http://jalbum.net",
+    "date": "2006-08-23T19:38:06",
+    "date_gmt": "2006-08-23T19:38:06",
+    "content": {
+      "rendered": "<p>I&#8217;m happy you enjoy it!</p>\n"
+    },
+    "link": "http://geekraj.com/jalbum/comment-page-1/#comment-24",
+    "status": "approved",
+    "type": "comment",
+    "author_avatar_urls": {
+      "24": "http://2.gravatar.com/avatar/bb84871729665b2dd94ee3eb96215123?s=24&d=wavatar&r=g",
+      "48": "http://2.gravatar.com/avatar/bb84871729665b2dd94ee3eb96215123?s=48&d=wavatar&r=g",
+      "96": "http://2.gravatar.com/avatar/bb84871729665b2dd94ee3eb96215123?s=96&d=wavatar&r=g"
+    },
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "http://geekraj.com/wp-json/wp/v2/comments/24"
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://geekraj.com/wp-json/wp/v2/comments"
+        }
+      ],
+      "up": [
+        {
+          "embeddable": true,
+          "post_type": "post",
+          "href": "http://geekraj.com/wp-json/wp/v2/posts/75"
+        }
+      ]
+    }
+  },
+  {
+    "id": 23,
+    "post": 75,
+    "parent": 0,
+    "author": 0,
+    "author_name": "Tom Crosman",
+    "author_url": "",
+    "date": "2006-08-23T16:56:57",
+    "date_gmt": "2006-08-23T16:56:57",
+    "content": {
+      "rendered": "<p>Yes.  Found this awhile back.  Way cool!</p>\n"
+    },
+    "link": "http://geekraj.com/jalbum/comment-page-1/#comment-23",
+    "status": "approved",
+    "type": "comment",
+    "author_avatar_urls": {
+      "24": "http://1.gravatar.com/avatar/?s=24&d=wavatar&r=g",
+      "48": "http://1.gravatar.com/avatar/?s=48&d=wavatar&r=g",
+      "96": "http://2.gravatar.com/avatar/?s=96&d=wavatar&r=g"
+    },
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "http://geekraj.com/wp-json/wp/v2/comments/23"
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://geekraj.com/wp-json/wp/v2/comments"
+        }
+      ],
+      "up": [
+        {
+          "embeddable": true,
+          "post_type": "post",
+          "href": "http://geekraj.com/wp-json/wp/v2/posts/75"
+        }
+      ]
+    }
+  },
+  {
+    "id": 25,
+    "post": 78,
+    "parent": 0,
+    "author": 0,
+    "author_name": "Geoff",
+    "author_url": "http://spindle.sourceforge.net",
+    "date": "2006-03-13T22:52:55",
+    "date_gmt": "2006-03-13T22:52:55",
+    "content": {
+      "rendered": "<p>You should add a note that -Dorg.apache.tapestry.disable-caching=true is not meant to be used in a production environment. It&#8217;s a development setting.</p>\n<p>Tapestry apps with that flag set will be very slow as all internal caches are not used. Plus, since it&#8217;s not intended for production you can get classloader errors on some server after a while.</p>\n<p>Geoff</p>\n"
+    },
+    "link": "http://geekraj.com/making_tapestry_pickup_changes_without/comment-page-1/#comment-25",
+    "status": "approved",
+    "type": "comment",
+    "author_avatar_urls": {
+      "24": "http://2.gravatar.com/avatar/8c6fc273bc02c88a48571cbfdbdd9ae2?s=24&d=wavatar&r=g",
+      "48": "http://2.gravatar.com/avatar/8c6fc273bc02c88a48571cbfdbdd9ae2?s=48&d=wavatar&r=g",
+      "96": "http://2.gravatar.com/avatar/8c6fc273bc02c88a48571cbfdbdd9ae2?s=96&d=wavatar&r=g"
+    },
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "http://geekraj.com/wp-json/wp/v2/comments/25"
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://geekraj.com/wp-json/wp/v2/comments"
+        }
+      ],
+      "up": [
+        {
+          "embeddable": true,
+          "post_type": "post",
+          "href": "http://geekraj.com/wp-json/wp/v2/posts/78"
+        }
+      ]
+    }
+  },
+  {
+    "id": 26,
+    "post": 79,
+    "parent": 0,
+    "author": 0,
+    "author_name": "Abhishek Sanwal",
+    "author_url": "http://asanwal.blogspot.com",
+    "date": "2006-02-04T07:39:28",
+    "date_gmt": "2006-02-04T07:39:28",
+    "content": {
+      "rendered": "<p>Hello Raj,</p>\n<p>It&#8217;s been a while since I&#8217;ve seen any activity from your front. I did send you an e-mail, but never heard back. I met with Eric but have no news as such.</p>\n<p>Talk to you sometime.</p>\n<p>Regards,</p>\n<p>Abhishek</p>\n"
+    },
+    "link": "http://geekraj.com/google_s_holiday_doodle/comment-page-1/#comment-26",
+    "status": "approved",
+    "type": "comment",
+    "author_avatar_urls": {
+      "24": "http://2.gravatar.com/avatar/8b54da819645d9997b724a8dcb5ba183?s=24&d=wavatar&r=g",
+      "48": "http://2.gravatar.com/avatar/8b54da819645d9997b724a8dcb5ba183?s=48&d=wavatar&r=g",
+      "96": "http://2.gravatar.com/avatar/8b54da819645d9997b724a8dcb5ba183?s=96&d=wavatar&r=g"
+    },
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "http://geekraj.com/wp-json/wp/v2/comments/26"
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://geekraj.com/wp-json/wp/v2/comments"
+        }
+      ],
+      "up": [
+        {
+          "embeddable": true,
+          "post_type": "post",
+          "href": "http://geekraj.com/wp-json/wp/v2/posts/79"
+        }
+      ]
+    }
+  },
+  {
+    "id": 29,
+    "post": 89,
+    "parent": 0,
+    "author": 0,
+    "author_name": "JavaPro",
+    "author_url": "http://blog.csdn.net/starshus",
+    "date": "2006-01-02T09:46:57",
+    "date_gmt": "2006-01-02T09:46:57",
+    "content": {
+      "rendered": "<p>Hi,Rajkumar:<br />\nI&#8217;m very inetested in &#8220;Switch Menu Bar&#8221;,can you give me your codes to study how it works?</p>\n<p>My Email addr:<br />\n<a href=\"mailto:rangwei.rcp@gmail.com\">rangwei.rcp@gmail.com</a></p>\n<p>Thx very much!<br />\n                            javapro</p>\n"
+    },
+    "link": "http://geekraj.com/switching_out_menubar_part_2/comment-page-1/#comment-29",
+    "status": "approved",
+    "type": "comment",
+    "author_avatar_urls": {
+      "24": "http://1.gravatar.com/avatar/127b7d3b3ee79ab0368f46ad68844008?s=24&d=wavatar&r=g",
+      "48": "http://1.gravatar.com/avatar/127b7d3b3ee79ab0368f46ad68844008?s=48&d=wavatar&r=g",
+      "96": "http://1.gravatar.com/avatar/127b7d3b3ee79ab0368f46ad68844008?s=96&d=wavatar&r=g"
+    },
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "http://geekraj.com/wp-json/wp/v2/comments/29"
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://geekraj.com/wp-json/wp/v2/comments"
+        }
+      ],
+      "up": [
+        {
+          "embeddable": true,
+          "post_type": "post",
+          "href": "http://geekraj.com/wp-json/wp/v2/posts/89"
+        }
+      ]
+    }
+  },
+  {
+    "id": 27,
+    "post": 84,
+    "parent": 0,
+    "author": 0,
+    "author_name": "Rosh Sequ",
+    "author_url": "",
+    "date": "2005-01-12T02:12:12",
+    "date_gmt": "2005-01-12T02:12:12",
+    "content": {
+      "rendered": "<p>I&#8217;d love a GMail account if you can spare one.</p>\n<p>Thanks,<br />\nRAS</p>\n"
+    },
+    "link": "http://geekraj.com/gmail_invites/comment-page-1/#comment-27",
+    "status": "approved",
+    "type": "comment",
+    "author_avatar_urls": {
+      "24": "http://2.gravatar.com/avatar/bd7a35bf919d7c238987f639b0f6373a?s=24&d=wavatar&r=g",
+      "48": "http://2.gravatar.com/avatar/bd7a35bf919d7c238987f639b0f6373a?s=48&d=wavatar&r=g",
+      "96": "http://2.gravatar.com/avatar/bd7a35bf919d7c238987f639b0f6373a?s=96&d=wavatar&r=g"
+    },
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "http://geekraj.com/wp-json/wp/v2/comments/27"
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://geekraj.com/wp-json/wp/v2/comments"
+        }
+      ],
+      "up": [
+        {
+          "embeddable": true,
+          "post_type": "post",
+          "href": "http://geekraj.com/wp-json/wp/v2/posts/84"
+        }
+      ]
+    }
+  },
+  {
+    "id": 28,
+    "post": 88,
+    "parent": 0,
+    "author": 0,
+    "author_name": "Raj Madhuram",
+    "author_url": "",
+    "date": "2004-09-14T11:16:47",
+    "date_gmt": "2004-09-14T11:16:47",
+    "content": {
+      "rendered": "<p>Well, I was trying to open a 2.1.3 workspace with 3.0 (release version). That was when I had this issue!!</p>\n<p>Thanks for the pointer though.</p>\n"
+    },
+    "link": "http://geekraj.com/don_t_try_this_at/comment-page-1/#comment-28",
+    "status": "approved",
+    "type": "comment",
+    "author_avatar_urls": {
+      "24": "http://1.gravatar.com/avatar/?s=24&d=wavatar&r=g",
+      "48": "http://2.gravatar.com/avatar/?s=48&d=wavatar&r=g",
+      "96": "http://0.gravatar.com/avatar/?s=96&d=wavatar&r=g"
+    },
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "http://geekraj.com/wp-json/wp/v2/comments/28"
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://geekraj.com/wp-json/wp/v2/comments"
+        }
+      ],
+      "up": [
+        {
+          "embeddable": true,
+          "post_type": "post",
+          "href": "http://geekraj.com/wp-json/wp/v2/posts/88"
+        }
+      ]
+    }
+  },
+  {
+    "id": 32,
+    "post": 90,
+    "parent": 0,
+    "author": 0,
+    "author_name": "Raj Madhuram",
+    "author_url": "",
+    "date": "2004-09-07T23:35:24",
+    "date_gmt": "2004-09-07T23:35:24",
+    "content": {
+      "rendered": "<p>Kevin,</p>\n<p>Thanks for your suggestions. Your point is well taken. I could have done that by re-creating the entire menu bar, but it is one of those things which I thought I could re-use, </p>\n"
+    },
+    "link": "http://geekraj.com/switching_out_jmenubar/comment-page-1/#comment-32",
+    "status": "approved",
+    "type": "comment",
+    "author_avatar_urls": {
+      "24": "http://1.gravatar.com/avatar/?s=24&d=wavatar&r=g",
+      "48": "http://1.gravatar.com/avatar/?s=48&d=wavatar&r=g",
+      "96": "http://0.gravatar.com/avatar/?s=96&d=wavatar&r=g"
+    },
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "http://geekraj.com/wp-json/wp/v2/comments/32"
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://geekraj.com/wp-json/wp/v2/comments"
+        }
+      ],
+      "up": [
+        {
+          "embeddable": true,
+          "post_type": "post",
+          "href": "http://geekraj.com/wp-json/wp/v2/posts/90"
+        }
+      ]
+    }
+  },
+  {
+    "id": 31,
+    "post": 90,
+    "parent": 0,
+    "author": 0,
+    "author_name": "Kevin",
+    "author_url": "",
+    "date": "2004-09-02T10:37:44",
+    "date_gmt": "2004-09-02T10:37:44",
+    "content": {
+      "rendered": "<p>How about JMenuBar.updateUI()? That always works for me.</p>\n<p>And why are you creating more than one menu bar. Just &#8220;redraw&#8221; your menu bar using the menu items/menus you need, removing those you dont. No reason to create several menu bar instances for specific needs. You can even create a dynamic Action setup where a given role is allowed different types of Actions, some shared, some specific, and built the menu bar from that.</p>\n"
+    },
+    "link": "http://geekraj.com/switching_out_jmenubar/comment-page-1/#comment-31",
+    "status": "approved",
+    "type": "comment",
+    "author_avatar_urls": {
+      "24": "http://2.gravatar.com/avatar/?s=24&d=wavatar&r=g",
+      "48": "http://1.gravatar.com/avatar/?s=48&d=wavatar&r=g",
+      "96": "http://2.gravatar.com/avatar/?s=96&d=wavatar&r=g"
+    },
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "http://geekraj.com/wp-json/wp/v2/comments/31"
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://geekraj.com/wp-json/wp/v2/comments"
+        }
+      ],
+      "up": [
+        {
+          "embeddable": true,
+          "post_type": "post",
+          "href": "http://geekraj.com/wp-json/wp/v2/posts/90"
+        }
+      ]
+    }
+  },
+  {
+    "id": 36,
+    "post": 93,
+    "parent": 0,
+    "author": 0,
+    "author_name": "Raj Madhuram",
+    "author_url": "",
+    "date": "2004-05-04T02:33:02",
+    "date_gmt": "2004-05-04T02:33:02",
+    "content": {
+      "rendered": "<p>Hi Sam,</p>\n<p>Thanks. You are a master of analogies :)  I&#8217;m sure there must have been some substantial work done in the research community on the topic of UI adapting to the user. Would be interesting to see what&#8217;s out there..</p>\n<p>regards,<br />\nRaj</p>\n"
+    },
+    "link": "http://geekraj.com/adaptive_uis/comment-page-1/#comment-36",
+    "status": "approved",
+    "type": "comment",
+    "author_avatar_urls": {
+      "24": "http://1.gravatar.com/avatar/4b16da4657265c7367dc6fcc7876ac87?s=24&d=wavatar&r=g",
+      "48": "http://1.gravatar.com/avatar/4b16da4657265c7367dc6fcc7876ac87?s=48&d=wavatar&r=g",
+      "96": "http://1.gravatar.com/avatar/4b16da4657265c7367dc6fcc7876ac87?s=96&d=wavatar&r=g"
+    },
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "http://geekraj.com/wp-json/wp/v2/comments/36"
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://geekraj.com/wp-json/wp/v2/comments"
+        }
+      ],
+      "up": [
+        {
+          "embeddable": true,
+          "post_type": "post",
+          "href": "http://geekraj.com/wp-json/wp/v2/posts/93"
+        }
+      ]
+    }
+  },
+  {
+    "id": 35,
+    "post": 93,
+    "parent": 0,
+    "author": 0,
+    "author_name": "Sam Newman",
+    "author_url": "http://www.magpiebrain.com/",
+    "date": "2004-04-29T02:19:38",
+    "date_gmt": "2004-04-29T02:19:38",
+    "content": {
+      "rendered": "<p>Well it should &#8211; to further extend the analogy the at least one of the people serving me rememebers what I usually have, and just asks &#8220;The Usual?&#8221;. In fact I think you&#8217;ve inspired me to make a new post&#8230;</p>\n"
+    },
+    "link": "http://geekraj.com/adaptive_uis/comment-page-1/#comment-35",
+    "status": "approved",
+    "type": "comment",
+    "author_avatar_urls": {
+      "24": "http://2.gravatar.com/avatar/bdd5a801e73f5e4124deac02ff6a5f23?s=24&d=wavatar&r=g",
+      "48": "http://2.gravatar.com/avatar/bdd5a801e73f5e4124deac02ff6a5f23?s=48&d=wavatar&r=g",
+      "96": "http://2.gravatar.com/avatar/bdd5a801e73f5e4124deac02ff6a5f23?s=96&d=wavatar&r=g"
+    },
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "http://geekraj.com/wp-json/wp/v2/comments/35"
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://geekraj.com/wp-json/wp/v2/comments"
+        }
+      ],
+      "up": [
+        {
+          "embeddable": true,
+          "post_type": "post",
+          "href": "http://geekraj.com/wp-json/wp/v2/posts/93"
+        }
+      ]
+    }
+  }
+]
