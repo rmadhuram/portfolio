@@ -38,9 +38,9 @@ Environment variables (`.env.local` locally, Project Settings on Vercel):
 
 ## Deploy (Vercel)
 
-1. `vercel login && vercel link`, add the env vars above to the project (Production + Preview).
+1. `vercel login && vercel link` (linked as project `geekraj` on 2026-10-31), then `sh scripts/vercel/push-env.sh` to copy the variables from `.env.local` to Production + Preview. `vercel.json` pins functions to `pdx1` (Oregon, same region as the RDS instance).
 2. Run `npm run db:push` and `npm run wp:import` once against the production `DATABASE_URL` (both scripts read `.env.local`). Done 2026-10-31 against the RDS MariaDB 10.11 instance (database `portfolio`, utf8mb4_unicode_ci).
-3. `vercel --prod`, then point `geekraj.com` at Vercel (Domains tab) and switch the old host off.
+3. `vercel --prod` (first deploy went live at https://geekraj-xi.vercel.app). Then `vercel domains add geekraj.com geekraj` and `vercel domains add www.geekraj.com geekraj`, set the DNS records it prints at the registrar, and switch the old host off after a final backup.
 
 ## Notes
 

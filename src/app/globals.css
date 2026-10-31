@@ -52,3 +52,15 @@ body {
 .prose .katex-display { overflow-x: auto; overflow-y: hidden; padding: 0.25rem 0; }
 .prose figure.aligncenter { text-align: center; }
 .prose .wp-block-table table, .prose table { display: block; overflow-x: auto; }
+
+/* Post-list placeholder thumbnails: colours come inline from placeholderStyle() in src/lib/category-visuals.ts */
+.thumb-placeholder {
+  background: var(--ph-bg);
+  color: var(--ph-fg);
+}
+@media (prefers-color-scheme: dark) {
+  .thumb-placeholder {
+    background: var(--ph-bg-dark);
+    color: var(--ph-fg-dark);
+  }
+}
