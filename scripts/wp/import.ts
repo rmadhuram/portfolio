@@ -69,7 +69,7 @@ async function main() {
     const featured = p.featured_media ? mediaById.get(p.featured_media) : undefined;
     const row = {
       wpId: p.id,
-      slug: p.slug,
+      slug: SLUG_OVERRIDES[p.slug] ?? p.slug,
       title: decodeEntities(p.title.rendered),
       excerpt: wpExcerpt(p.excerpt.rendered, p.content.rendered) || null,
       content: absolutizeUploads(localizeExternalImages(transformWpHtml(p.content.rendered, galleries))),
@@ -159,3 +159,6 @@ function wpExcerpt(excerptHtml: string, contentHtml: string, words = 55): string
   if (tokens.length <= words) return text;
   return tokens.slice(0, words).join(" ").replace(/[,;:]$/, "") + "…";
 }
+
+/** WordPress slugs that collide with site routes (e.g. /2014 is the year archive). */
+const SLUG_OVERRIDES: Record<string, string> = { "2014": "the-number-2014" };
