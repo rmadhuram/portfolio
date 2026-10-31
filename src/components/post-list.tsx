@@ -33,7 +33,7 @@ export function PostList({ posts, emptyText = "Nothing here yet.", yearMarkers =
           <li key={p.id} className="group">
             {marker && (
               <div className="mt-8 mb-2 flex items-center gap-3 first:mt-4" aria-label={`Posts from ${year}`}>
-                <span className="font-mono text-xs tracking-widest text-muted">{year}</span>
+                <Link href={`/${year}`} className="font-mono text-xs tracking-widest text-muted hover:text-accent">{year}</Link>
                 <span className="h-px flex-1 bg-border" />
               </div>
             )}

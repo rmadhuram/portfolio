@@ -185,3 +185,23 @@ export async function adminAllCategories() { return db.select().from(schema.cate
 export async function adminAllTags() { return db.select().from(schema.tags).orderBy(schema.tags.name); }
 export async function adminListMedia() { return db.select().from(schema.media).orderBy(desc(schema.media.createdAt)).limit(200); }
 export async function adminListPages() { return db.select().from(schema.pages).orderBy(schema.pages.title); }
+
+// ---- Year archives (/2014) ----
+export async function getYears(): Promise<{ year: number; count: number }[]> {
+  "use cache";
+  cacheLife("max");
+  cacheTag(TAGS.posts);
+  const rows = await db.select({ year: sql<number>`year(${schema.posts.publishedAt})`, count: sql<number>`count(*)` })
+    .from(schema.posts).where(and(published, sql`${schema.posts.publishedAt} is not null`))
+    .groupBy(sql`year(${schema.posts.publishedAt})`).orderBy(desc(sql`year(${schema.posts.publishedAt})`));
+  return rows.map((r) => ({ year: Number(r.year), count: Number(r.count) }));
+}
+
+export async function getPostsByYear(year: number): Promise<PostSummary[]> {
+  "use cache";
+  cacheLife("max");
+  cacheTag(TAGS.posts);
+  const rows = await db.select(summaryCols).from(schema.posts)
+    .where(and(published, sql`year(${schema.posts.publishedAt}) = ${year}`)).orderBy(desc(schema.posts.publishedAt));
+  return decorate(rows);
+}

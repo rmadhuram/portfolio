@@ -24,7 +24,7 @@ export default async function ArchivePage() {
       </p>
       {[...byYear.entries()].map(([year, list]) => (
         <section key={year} className="mt-8">
-          <h2 className="text-lg font-semibold">{year}</h2>
+          <h2 className="text-lg font-semibold">{year === "Undated" ? year : <Link href={`/${year}`} className="hover:text-accent">{year}</Link>}</h2>
           <ul className="mt-2 space-y-1">
             {list.map((p) => (
               <li key={p.id} className="flex gap-3 text-sm">
