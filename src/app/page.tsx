@@ -32,5 +32,5 @@ export default function Home() {
 
 async function RecentPosts() {
   const { posts } = await getPublishedPosts({ limit: 8 });
-  return <PostList posts={posts} />;
+  return <PostList posts={posts} yearMarkers={false} />;
 }

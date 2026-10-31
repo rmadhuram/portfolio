@@ -3,6 +3,7 @@ import { cacheLife, cacheTag } from "next/cache";
 import { and, desc, eq, inArray, sql } from "drizzle-orm";
 import { db, schema } from "@/db";
 import type { Category, Comment, Post, Tag } from "@/db/schema";
+import { pickThumbnail } from "@/lib/thumbnail";
 
 export const PAGE_SIZE = 10;
 export const TAGS = {
@@ -16,14 +17,18 @@ export const TAGS = {
 export type PostSummary = Pick<Post, "id" | "slug" | "title" | "excerpt" | "featuredImage" | "publishedAt" | "source" | "sourceUrl"> & {
   categories: Category[];
   commentCount: number;
+  /** Featured image or first self-hosted body image; null when the post has no usable picture. */
+  thumbnail: string | null;
 };
+type SummaryRow = Omit<PostSummary, "categories" | "commentCount" | "thumbnail"> & { content: string; contentFormat: Post["contentFormat"] };
 
 const summaryCols = {
   id: schema.posts.id, slug: schema.posts.slug, title: schema.posts.title, excerpt: schema.posts.excerpt,
   featuredImage: schema.posts.featuredImage, publishedAt: schema.posts.publishedAt, source: schema.posts.source, sourceUrl: schema.posts.sourceUrl,
+  content: schema.posts.content, contentFormat: schema.posts.contentFormat,
 };
 
-async function decorate(rows: Omit<PostSummary, "categories" | "commentCount">[]): Promise<PostSummary[]> {
+async function decorate(rows: SummaryRow[]): Promise<PostSummary[]> {
   if (rows.length === 0) return [];
   const ids = rows.map((r) => r.id);
   const [cats, counts] = await Promise.all([
@@ -33,8 +38,9 @@ async function decorate(rows: Omit<PostSummary, "categories" | "commentCount">[]
       .where(and(inArray(schema.comments.postId, ids), eq(schema.comments.status, "approved"))).groupBy(schema.comments.postId),
   ]);
   const countBy = new Map(counts.map((c) => [c.postId, Number(c.n)]));
-  return rows.map((r) => ({
+  return rows.map(({ content, contentFormat, ...r }) => ({
     ...r,
+    thumbnail: pickThumbnail(r.featuredImage, content, contentFormat),
     categories: cats.filter((c) => c.postId === r.id).map((c) => c.category),
     commentCount: countBy.get(r.id) ?? 0,
   }));
