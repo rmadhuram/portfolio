@@ -48,10 +48,10 @@ const sanitizeOptions: sanitizeHtml.IOptions = {
       const external = /^https?:\/\//i.test(href) && !href.startsWith(process.env.SITE_URL ?? "\u0000");
       return { tagName, attribs: external ? { ...attribs, rel: "noopener noreferrer", target: "_blank" } : attribs };
     },
-    iframe: (tagName, attribs) => {
-      const src = (attribs.src ?? "").replace(/^\/\//, "https://");
-      return { tagName, attribs: { ...attribs, src, loading: "lazy" } };
-    },
+    // Legacy WordPress content embeds http:// players and images; on the HTTPS site browsers block
+    // those as mixed content, so upgrade them (every allowed iframe host serves HTTPS).
+    iframe: (tagName, attribs) => ({ tagName, attribs: { ...attribs, src: httpsOnly(attribs.src), loading: "lazy" } }),
+    img: (tagName, attribs) => ({ tagName, attribs: { ...attribs, src: httpsOnly(attribs.src) } }),
   },
 };
 
@@ -113,4 +113,8 @@ export function renderExcerpt(text: string): string {
 }
 export function excerptText(text: string): string {
   return text.replace(/(?<!\\)\$([^$\n]+?)\$/g, "$1").replace(/\\\$/g, "$");
+}
+
+function httpsOnly(url = ""): string {
+  return url.replace(/^(\/\/|http:\/\/)/i, "https://");
 }
